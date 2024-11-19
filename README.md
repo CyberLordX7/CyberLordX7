@@ -1,7 +1,7 @@
 ![workspace](https://github.com/user-attachments/assets/1d876730-0716-41c1-9ae2-414a3c4dac61)
 
 <div align="center">
-  <h1>👨‍💻 Michael Adetona (CyberLordX7)</h1>
+  <h1>👨‍💻 Michael Adetona</h1>
 </div>
 ---
 
