@@ -1,5 +1,8 @@
 ![workspace](https://github.com/user-attachments/assets/1d876730-0716-41c1-9ae2-414a3c4dac61)
-# 👨‍💻 Michael Adetona
+
+<center>
+# 👨‍💻 Michael Adetona  
+</center>
 
 Welcome to my GitHub profile! I am Michael Adetona, a passionate Fullstack Developer and Software Engineer with a focus on building innovative and efficient applications. I specialize in **React**, **Node.js**, **Laravel**, and **Mobile Development**. I'm always looking for new opportunities to grow and collaborate with amazing people. 
 
@@ -17,8 +20,8 @@ Welcome to my GitHub profile! I am Michael Adetona, a passionate Fullstack Devel
 ## 📊 GitHub Stats
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CyberLordX7&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=radical" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CyberLordX7&theme=radical&layout=compact&hide=html,css" />
+  <img height="100em" src="https://github-readme-stats.vercel.app/api?username=CyberLordX7&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=radical" />
+  <img height="100em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CyberLordX7&theme=radical&layout=compact&hide=html,css" />
 </div>
 
 
