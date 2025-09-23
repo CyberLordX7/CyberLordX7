@@ -1,0 +1,683 @@
+@import "/src/styles/extend";
+
+.loader {
+    position: fixed;
+    z-index: $z-index-loader;
+    background: radial-gradient(ellipse at center, rgba(10, 15, 28, 0.98) 0%, $loader-background-color 70%);
+    width: 100%;
+    height: 125vh;
+    height: 125svh;
+    top: -12.5vh;
+    top: -12.5svh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px 20px;
+    
+    // Animated background particles
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: 
+            radial-gradient(2px 2px at 20px 30px, var(--theme-highlight), transparent),
+            radial-gradient(2px 2px at 40px 70px, rgba(0, 212, 255, 0.3), transparent),
+            radial-gradient(1px 1px at 90px 40px, var(--theme-highlight-2), transparent),
+            radial-gradient(1px 1px at 130px 80px, rgba(0, 212, 255, 0.2), transparent),
+            radial-gradient(2px 2px at 160px 30px, var(--theme-highlight), transparent);
+        background-repeat: repeat;
+        background-size: 200px 100px;
+        animation: particleFloat 20s linear infinite;
+        opacity: 0.6;
+    }
+    
+    // Scanning lines effect
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, 
+            transparent 0%, 
+            var(--theme-highlight) 50%, 
+            transparent 100%);
+        animation: scanLine 3s ease-in-out infinite;
+        box-shadow: 0 0 20px var(--theme-highlight);
+    }
+
+    &-hidden {
+        top: -15.5vh;
+        opacity: 0;
+        transition: 0.4s all ease-in;
+        pointer-events: none;
+        
+        .loader-content {
+            transform: scale(0.8) translateY(50px);
+        }
+    }
+}
+
+.loader-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    pointer-events: none;
+    user-select: none;
+    position: relative;
+    z-index: 2;
+
+    .loader-content-info {
+        transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+        text-align: center;
+        margin-top: 30px;
+        
+        &-hidden {
+            opacity: 0;
+            transform: translateY(40px) scale(0.9);
+            transition: none;
+        }
+    }
+
+    // Data stream effect
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50px;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(to bottom,
+            transparent 0%,
+            var(--theme-highlight) 50%,
+            transparent 100%);
+        animation: dataStream 1.5s linear infinite;
+        opacity: 0.4;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -50px;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(to bottom,
+            transparent 0%,
+            var(--theme-highlight-2) 50%,
+            transparent 100%);
+        animation: dataStream 1.5s linear infinite 0.5s;
+        opacity: 0.4;
+    }
+
+    .title-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16px;
+        position: relative;
+        
+        // Holographic effect background
+        &::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -20px;
+            right: -20px;
+            bottom: -10px;
+            background: linear-gradient(45deg, 
+                transparent 30%, 
+                rgba(0, 212, 255, 0.05) 50%, 
+                transparent 70%);
+            border-radius: 12px;
+            animation: hologramShimmer 2.5s ease-in-out infinite;
+        }
+
+        h5 {
+            margin: 0;
+            font-family: $headings-font-family;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, 
+                var(--theme-highlight) 0%, 
+                var(--theme-highlight-2) 50%, 
+                var(--theme-secondary) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textGlow 2s ease-in-out infinite alternate;
+            position: relative;
+            z-index: 1;
+            
+            // Glitch effect on hover
+            &:hover {
+                animation: textGlow 2s ease-in-out infinite alternate, 
+                          textGlitch 0.3s ease-in-out;
+            }
+        }
+
+        .logo {
+            aspect-ratio: 1/1;
+            width: 48px;
+            border-radius: 50%;
+            border: 2px solid var(--theme-highlight);
+            padding: 4px;
+            animation: logoOrbit 4s ease-in-out infinite;
+            background: radial-gradient(circle, 
+                rgba(0, 212, 255, 0.1) 0%, 
+                transparent 70%);
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+            
+            // Energy rings around logo
+            &::before {
+                content: '';
+                position: absolute;
+                top: -6px;
+                left: -6px;
+                right: -6px;
+                bottom: -6px;
+                border: 1px solid rgba(0, 212, 255, 0.3);
+                border-radius: 50%;
+                animation: energyRing1 3s linear infinite;
+            }
+            
+            &::after {
+                content: '';
+                position: absolute;
+                top: -12px;
+                left: -12px;
+                right: -12px;
+                bottom: -12px;
+                border: 1px solid rgba(0, 212, 255, 0.15);
+                border-radius: 50%;
+                animation: energyRing2 4s linear infinite reverse;
+            }
+            
+            @include media-breakpoint-down(lg) {
+                width: 40px;
+            }
+            @include media-breakpoint-down(md) {
+                width: 32px;
+            }
+        }
+    }
+    
+    // Enhanced subtitle styling
+    p {
+        font-family: $custom-subheadings-font-family;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-top: 8px;
+        position: relative;
+        overflow: hidden;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            height: 1px;
+            width: 100%;
+            background: linear-gradient(90deg, 
+                transparent 0%, 
+                var(--theme-highlight) 50%, 
+                transparent 100%);
+            animation: underlineGlow 2s ease-in-out infinite;
+        }
+    }
+}
+
+/* ===== EPIC QUANTUM SPINNER ===== */
+
+.epic-spinner-container {
+    position: relative;
+    width: max(120px, 30vw);
+    height: max(120px, 30vw);
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &.spinner-hidden {
+        opacity: 0;
+        transform: translateY(-120px) scale(0) rotateY(180deg);
+        transition: none;
+    }
+}
+
+/* Core Quantum Reactor */
+.quantum-core {
+    width: min(60px, 15vw);
+    height: min(60px, 15vw);
+    background: radial-gradient(circle, 
+        rgba(0, 212, 255, 0.9) 0%, 
+        rgba(0, 212, 255, 0.3) 40%, 
+        transparent 70%);
+    border-radius: 50%;
+    position: absolute;
+    animation: quantumPulse 2s ease-in-out infinite;
+    box-shadow: 
+        0 0 30px rgba(0, 212, 255, 0.6),
+        0 0 60px rgba(0, 212, 255, 0.4),
+        inset 0 0 20px rgba(0, 212, 255, 0.2);
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: min(20px, 5vw);
+        height: min(20px, 5vw);
+        background: var(--theme-highlight);
+        border-radius: 50%;
+        box-shadow: 
+            0 0 20px var(--theme-highlight),
+            0 0 40px var(--theme-highlight);
+        animation: coreFlicker 1.5s ease-in-out infinite alternate;
+    }
+}
+
+/* Orbital Rings */
+.orbital-ring {
+    position: absolute;
+    border: 2px solid rgba(0, 212, 255, 0.3);
+    border-radius: 50%;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.ring-1 {
+    width: min(100px, 25vw);
+    height: min(100px, 25vw);
+    border-top-color: var(--theme-highlight);
+    border-right-color: rgba(0, 212, 255, 0.6);
+    animation: orbitClockwise 3s linear infinite;
+}
+
+.ring-2 {
+    width: min(140px, 35vw);
+    height: min(140px, 35vw);
+    border-left-color: var(--theme-highlight-2);
+    border-bottom-color: rgba(56, 189, 248, 0.6);
+    animation: orbitCounterClockwise 4s linear infinite;
+}
+
+.ring-3 {
+    width: min(180px, 45vw);
+    height: min(180px, 45vw);
+    border-top-color: var(--theme-highlight-3);
+    border-right-color: rgba(14, 165, 233, 0.4);
+    animation: orbitClockwise 5s linear infinite;
+}
+
+/* Data Nodes */
+.data-node {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--theme-highlight);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--theme-highlight);
+}
+
+.node-1 {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: nodeOrbit1 3s linear infinite;
+}
+
+.node-2 {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    animation: nodeOrbit2 4s linear infinite;
+}
+
+.node-3 {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: nodeOrbit3 5s linear infinite;
+}
+
+.node-4 {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    animation: nodeOrbit4 4s linear infinite;
+}
+
+/* Energy Arcs */
+.energy-arc {
+    position: absolute;
+    width: 2px;
+    background: linear-gradient(to bottom, 
+        transparent 0%, 
+        var(--theme-highlight) 20%, 
+        var(--theme-highlight-2) 50%, 
+        var(--theme-highlight) 80%, 
+        transparent 100%);
+    border-radius: 1px;
+    opacity: 0.6;
+}
+
+.arc-1 {
+    height: min(80px, 20vw);
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+    animation: arcPulse 2s ease-in-out infinite;
+}
+
+.arc-2 {
+    height: min(80px, 20vw);
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(120deg);
+    animation: arcPulse 2s ease-in-out infinite 0.66s;
+}
+
+.arc-3 {
+    height: min(80px, 20vw);
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(240deg);
+    animation: arcPulse 2s ease-in-out infinite 1.33s;
+}
+
+/* Hexagonal Tech Frame */
+.tech-frame {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    animation: frameRotate 20s linear infinite;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        background: linear-gradient(45deg, 
+            transparent 0%, 
+            rgba(0, 212, 255, 0.1) 25%, 
+            transparent 50%, 
+            rgba(0, 212, 255, 0.1) 75%, 
+            transparent 100%);
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        animation: frameScan 3s ease-in-out infinite;
+    }
+}
+
+/* Holographic Grid */
+.holo-grid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 212, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 212, 255, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    border-radius: 50%;
+    animation: gridPulse 4s ease-in-out infinite;
+    opacity: 0.3;
+}
+
+/* Power Indicators */
+.power-indicator {
+    position: absolute;
+    width: 4px;
+    height: 15px;
+    background: var(--theme-highlight);
+    border-radius: 2px;
+    box-shadow: 0 0 10px var(--theme-highlight);
+}
+
+.indicator-1 { 
+    top: 5px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    animation: powerFlash 1s ease-in-out infinite; 
+}
+
+.indicator-2 { 
+    top: 50%; 
+    right: 5px; 
+    transform: translateY(-50%) rotate(90deg); 
+    animation: powerFlash 1s ease-in-out infinite 0.2s; 
+}
+
+.indicator-3 { 
+    bottom: 5px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    animation: powerFlash 1s ease-in-out infinite 0.4s; 
+}
+
+.indicator-4 { 
+    top: 50%; 
+    left: 5px; 
+    transform: translateY(-50%) rotate(90deg); 
+    animation: powerFlash 1s ease-in-out infinite 0.6s; 
+}
+
+/* ===== ANIMATIONS ===== */
+
+// Background animations
+@keyframes particleFloat {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    33% { transform: translateY(-10px) rotate(120deg); }
+    66% { transform: translateY(-5px) rotate(240deg); }
+}
+
+@keyframes scanLine {
+    0% { left: -100%; opacity: 0; }
+    50% { left: 0%; opacity: 1; }
+    100% { left: 100%; opacity: 0; }
+}
+
+@keyframes dataStream {
+    0% { 
+        transform: translateY(-100px); 
+        opacity: 0; 
+    }
+    50% { 
+        opacity: 1; 
+    }
+    100% { 
+        transform: translateY(100px); 
+        opacity: 0; 
+    }
+}
+
+// Text animations
+@keyframes hologramShimmer {
+    0%, 100% { transform: translateX(-100%); }
+    50% { transform: translateX(100%); }
+}
+
+@keyframes textGlow {
+    0% { 
+        text-shadow: 0 0 20px rgba(0, 212, 255, 0.5); 
+        filter: brightness(1);
+    }
+    100% { 
+        text-shadow: 0 0 30px rgba(0, 212, 255, 0.8),
+                     0 0 40px rgba(0, 212, 255, 0.3); 
+        filter: brightness(1.2);
+    }
+}
+
+@keyframes textGlitch {
+    0%, 100% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+}
+
+@keyframes logoOrbit {
+    0%, 100% { 
+        transform: translateY(0px) scale(1);
+        filter: brightness(1);
+    }
+    50% { 
+        transform: translateY(-5px) scale(1.05);
+        filter: brightness(1.2);
+    }
+}
+
+@keyframes energyRing1 {
+    0% { 
+        transform: rotate(0deg) scale(1); 
+        opacity: 0.3; 
+    }
+    50% { 
+        transform: rotate(180deg) scale(1.05); 
+        opacity: 0.6; 
+    }
+    100% { 
+        transform: rotate(360deg) scale(1); 
+        opacity: 0.3; 
+    }
+}
+
+@keyframes energyRing2 {
+    0% { 
+        transform: rotate(0deg) scale(1); 
+        opacity: 0.15; 
+    }
+    100% { 
+        transform: rotate(-360deg) scale(1.02); 
+        opacity: 0.15; 
+    }
+}
+
+@keyframes underlineGlow {
+    0%, 100% { 
+        transform: scaleX(0.3); 
+        opacity: 0.5; 
+    }
+    50% { 
+        transform: scaleX(1); 
+        opacity: 1; 
+    }
+}
+
+// Spinner animations
+@keyframes quantumPulse {
+    0%, 100% { transform: scale(1); filter: brightness(1); }
+    50% { transform: scale(1.1); filter: brightness(1.3); }
+}
+
+@keyframes coreFlicker {
+    0% { opacity: 0.8; transform: translate(-50%, -50%) scale(1); }
+    100% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+}
+
+@keyframes orbitClockwise {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes orbitCounterClockwise {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+@keyframes nodeOrbit1 {
+    0% { transform: translateX(-50%) rotate(0deg) translateY(-40px) rotate(0deg); }
+    100% { transform: translateX(-50%) rotate(360deg) translateY(-40px) rotate(-360deg); }
+}
+
+@keyframes nodeOrbit2 {
+    0% { transform: translateY(-50%) rotate(0deg) translateX(-60px) rotate(0deg); }
+    100% { transform: translateY(-50%) rotate(-360deg) translateX(-60px) rotate(360deg); }
+}
+
+@keyframes nodeOrbit3 {
+    0% { transform: translateX(-50%) rotate(0deg) translateY(-80px) rotate(0deg); }
+    100% { transform: translateX(-50%) rotate(360deg) translateY(-80px) rotate(-360deg); }
+}
+
+@keyframes nodeOrbit4 {
+    0% { transform: translateY(-50%) rotate(0deg) translateX(60px) rotate(0deg); }
+    100% { transform: translateY(-50%) rotate(-360deg) translateX(60px) rotate(360deg); }
+}
+
+@keyframes arcPulse {
+    0%, 100% { opacity: 0.3; transform: translateX(-50%) scaleY(1); }
+    50% { opacity: 0.8; transform: translateX(-50%) scaleY(1.2); }
+}
+
+@keyframes frameRotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes frameScan {
+    0%, 100% { opacity: 0.1; }
+    50% { opacity: 0.3; }
+}
+
+@keyframes gridPulse {
+    0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.2; }
+    50% { transform: scale(1.05) rotate(180deg); opacity: 0.4; }
+}
+
+@keyframes powerFlash {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+}
+
+/* Enhanced responsive design */
+@include media-breakpoint-down(lg) {
+    .epic-spinner-container {
+        width: max(100px, 25vw);
+        height: max(100px, 25vw);
+        max-width: 160px;
+        max-height: 160px;
+    }
+    
+    .loader-content .title-wrapper h5 {
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .epic-spinner-container {
+        width: max(80px, 20vw);
+        height: max(80px, 20vw);
+        max-width: 120px;
+        max-height: 120px;
+    }
+    
+    .loader-content {
+        .title-wrapper h5 {
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+        
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}

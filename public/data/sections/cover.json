@@ -1,0 +1,406 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Michael Adetona!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Michael Adetona!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Michael Adetona!**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Michael Adetona** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Remonode",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "powerofelectron616@gmail.com",
+                    "links": [
+                        {"href": "mailto:powerofelectron616@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@CyberLordX7",
+                    "links": [
+                        {"href": "https://github.com/CyberLordX7"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+            {
+        "id": "short_description",
+        "component": "ArticleInfoBlock",
+        "config": {},
+        "locales": {
+            "en": {"title": "**About Me**"},
+            "es": {"title": "**Sobre mí**"},
+            "fr": {"title": "**À propos de moi**"},
+            "ko": {"title": "**소개**"}
+        },
+
+        "items": [
+            {
+            "icon": {
+                "img": "images/pictures/mike.jpg",
+                "fa": null,
+                "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+                "en": {
+                "text": "<p>Hi, I’m Michael — a passionate developer and problem-solver who enjoys building tools and solutions that make work smarter, faster, and more impactful. With experience spanning backend development, frontend design, and data-driven solutions, I bring both technical skills and creativity to every project I take on.</p><p>Beyond coding, I’m deeply interested in how technology and data can solve real-world problems, drive growth, and create better user experiences. Whether it’s developing efficient systems, experimenting with new frameworks, or collaborating with teams to bring ideas to life, I’m always eager to learn, grow, and push boundaries.</p><p>When I’m not working, I enjoy exploring new ideas, sharing knowledge, and continuously finding ways to refine my craft.</p>"
+                },
+                "es": {
+                "text": "<p>Hola, soy Michael, un desarrollador apasionado y solucionador de problemas que disfruta creando herramientas y soluciones que hacen el trabajo más inteligente, rápido e impactante. Con experiencia en desarrollo backend, diseño frontend y soluciones basadas en datos, aporto tanto habilidades técnicas como creatividad a cada proyecto en el que participo.</p><p>Más allá de la programación, me interesa profundamente cómo la tecnología y los datos pueden resolver problemas reales, impulsar el crecimiento y crear mejores experiencias de usuario. Ya sea desarrollando sistemas eficientes, experimentando con nuevos frameworks o colaborando con equipos para dar vida a ideas, siempre estoy dispuesto a aprender, crecer y superar límites.</p><p>Cuando no estoy trabajando, disfruto explorando nuevas ideas, compartiendo conocimientos y encontrando continuamente formas de perfeccionar mi oficio.</p>"
+                },
+                "fr": {
+                "text": "<p>Bonjour, je m’appelle Michael — un développeur passionné et un résolveur de problèmes qui aime créer des outils et des solutions rendant le travail plus intelligent, plus rapide et plus impactant. Avec une expérience couvrant le développement backend, la conception frontend et les solutions axées sur les données, j’apporte à chaque projet à la fois des compétences techniques et de la créativité.</p><p>Au-delà du code, je m’intéresse profondément à la façon dont la technologie et les données peuvent résoudre des problèmes concrets, stimuler la croissance et améliorer l’expérience utilisateur. Qu’il s’agisse de développer des systèmes efficaces, d’expérimenter de nouveaux frameworks ou de collaborer avec des équipes pour donner vie à des idées, je suis toujours désireux d’apprendre, de progresser et de repousser les limites.</p><p>Lorsque je ne travaille pas, j’aime explorer de nouvelles idées, partager mes connaissances et trouver en permanence des moyens d’affiner mon savoir-faire.</p>"
+                },
+                "ko": {
+                "text": "<p>안녕하세요, 저는 Michael입니다. 열정적인 개발자이자 문제 해결사로서 더 똑똑하고, 더 빠르며, 더 영향력 있는 도구와 솔루션을 만드는 것을 즐깁니다. 백엔드 개발, 프론트엔드 디자인, 데이터 기반 솔루션에 걸친 경험을 통해 모든 프로젝트에 기술적 역량과 창의성을 함께 제공합니다.</p><p>코딩을 넘어, 기술과 데이터가 실제 문제를 해결하고 성장을 이끌며 더 나은 사용자 경험을 창출하는 데 어떻게 활용될 수 있는지에 깊은 관심을 가지고 있습니다. 효율적인 시스템을 개발하거나, 새로운 프레임워크를 실험하거나, 팀과 협력하여 아이디어를 실현하는 과정에서 저는 항상 배우고, 성장하며, 한계를 넓히고자 합니다.</p><p>일하지 않을 때는 새로운 아이디어를 탐구하고, 지식을 공유하며, 제 역량을 계속해서 갈고닦는 것을 즐깁니다.</p>"
+                }
+            }
+            }
+        ]
+        },
+
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "Client **testimonials**"},
+                "es": {"title": "Testimonios de **clientes**"},
+                "fr": {"title": "Témoignages de **clients**"},
+                "ko": {"title": "**고객** 추천사"}
+            },
+
+            "items": [
+                {
+                    "value": "ADESANMI Emmanuel Adebukola",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/aea-redgem"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/adesanmi.jpeg",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO at <b>LuxuryX Technologies & TradeFi Ltd</b>",
+                            "text": "Working with Michael was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+                        },
+                        "es": {
+                            "info": "CEO en <b>SalesForce</b>",
+                            "text": "Trabajar con Michel fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
+                        },
+                        "fr": {
+                            "info": "PDG de <b>SalesForce</b>",
+                            "text": "Travailler avec Michael a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
+                        },
+                        "ko": {
+                            "info": "세일즈포스  CEO",
+                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
+                        }
+                    }
+                },
+
+    
+                {
+                    "value": "Lekan Oladele",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/lekan-oladele-a32b555"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/lekan.jpeg",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO at <b>Tripodbase Limited</b>",
+                            "text": "Working with Michel was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+                        },
+                        "es": {
+                            "info": "CEO en <b>SalesForce</b>",
+                            "text": "Trabajar con Michael fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
+                        },
+                        "fr": {
+                            "info": "PDG de <b>SalesForce</b>",
+                            "text": "Travailler avec Michael a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
+                        },
+                        "ko": {
+                            "info": "세일즈포스  CEO",
+                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
+                        }
+                    }
+                },
+
+    
+                {
+                    "value": "Mahesh Kendre",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/mahesh-kendre-7b848016"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/mahesh.jpeg",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO at <b>Transmog Technologies</b>",
+                            "text": "Working with Michel was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+                        },
+                        "es": {
+                            "info": "CEO en <b>SalesForce</b>",
+                            "text": "Trabajar con Michael fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
+                        },
+                        "fr": {
+                            "info": "PDG de <b>SalesForce</b>",
+                            "text": "Travailler avec Michael a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
+                        },
+                        "ko": {
+                            "info": "세일즈포스  CEO",
+                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+  "id": "interests",
+  "component": "ArticleGrid",
+  "config": {
+    "format": "grid"
+  },
+  "locales": {
+    "en": {"title": "Personal **interests**"},
+    "es": {"title": "Intereses **personales**"},
+    "fr": {"title": "Intérêts **personnels**"},
+    "ko": {"title": "개인 **관심사**"}
+  },
+
+  "items": [
+    {
+      "icon": {
+        "img": null,
+        "fa": "fa-solid fa-code",
+        "faColors": null
+      },
+      "value": null,
+      "locales": {
+        "en": {
+          "title": "Backend Development",
+          "info": "Building robust APIs and scalable systems with PHP, Laravel, and modern frameworks."
+        },
+        "es": {
+          "title": "Desarrollo Backend",
+          "info": "Creación de API sólidas y sistemas escalables con PHP, Laravel y frameworks modernos."
+        },
+        "fr": {
+          "title": "Développement Backend",
+          "info": "Construire des API robustes et des systèmes évolutifs avec PHP, Laravel et des frameworks modernes."
+        },
+        "ko": {
+          "title": "백엔드 개발",
+          "info": "PHP, Laravel 및 최신 프레임워크로 강력한 API와 확장 가능한 시스템 구축."
+        }
+      }
+    },
+
+    {
+      "icon": {
+        "img": null,
+        "fa": "fa-solid fa-robot",
+        "faColors": null
+      },
+      "value": null,
+      "locales": {
+        "en": {
+          "title": "Artificial Intelligence",
+          "info": "Exploring AI-powered tools to improve automation, productivity, and user interaction."
+        },
+        "es": {
+          "title": "Inteligencia Artificial",
+          "info": "Explorando herramientas impulsadas por IA para mejorar la automatización, la productividad y la interacción del usuario."
+        },
+        "fr": {
+          "title": "Intelligence Artificielle",
+          "info": "Explorer des outils basés sur l'IA pour améliorer l'automatisation, la productivité et l'interaction utilisateur."
+        },
+        "ko": {
+          "title": "인공지능",
+          "info": "자동화, 생산성 및 사용자 상호 작용을 향상시키기 위한 AI 기반 도구 탐구."
+        }
+      }
+    },
+
+    {
+      "icon": {
+        "img": null,
+        "fa": "fa-solid fa-database",
+        "faColors": null
+      },
+      "value": null,
+      "locales": {
+        "en": {
+          "title": "Data & Analytics",
+          "info": "Leveraging data to solve problems, track performance, and make better business decisions."
+        },
+        "es": {
+          "title": "Datos y Análisis",
+          "info": "Aprovechando los datos para resolver problemas, seguir el rendimiento y tomar mejores decisiones empresariales."
+        },
+        "fr": {
+          "title": "Données & Analyse",
+          "info": "Exploiter les données pour résoudre des problèmes, suivre la performance et améliorer la prise de décision."
+        },
+        "ko": {
+          "title": "데이터 & 분석",
+          "info": "데이터를 활용해 문제를 해결하고 성과를 추적하며 더 나은 비즈니스 결정을 내리기."
+        }
+      }
+    },
+
+    {
+      "icon": {
+        "img": null,
+        "fa": "fa-solid fa-pencil-ruler",
+        "faColors": null
+      },
+      "value": null,
+      "locales": {
+        "en": {
+          "title": "Design Best Practices",
+          "info": "Focus on design best practices to create intuitive and engaging digital experiences."
+        },
+        "es": {
+          "title": "Diseño UI/UX",
+          "info": "Centrarse en el diseño centrado en el usuario para crear experiencias digitales intuitivas y atractivas."
+        },
+        "fr": {
+          "title": "Design UI/UX",
+          "info": "Se concentrer sur la conception centrée sur l'utilisateur pour créer des expériences numériques intuitives et engageantes."
+        },
+        "ko": {
+          "title": "UI/UX 디자인",
+          "info": "사용자 중심 디자인에 집중하여 직관적이고 매력적인 디지털 경험 창출."
+        }
+      }
+    },
+
+    {
+      "icon": {
+        "img": null,
+        "fa": "fa-solid fa-lightbulb",
+        "faColors": null
+      },
+      "value": null,
+      "locales": {
+        "en": {
+          "title": "Entrepreneurship",
+          "info": "Building and scaling projects like Remonode, turning ideas into impactful products."
+        },
+        "es": {
+          "title": "Emprendimiento",
+          "info": "Construyendo y escalando proyectos como Remonode, convirtiendo ideas en productos impactantes."
+        },
+        "fr": {
+          "title": "Entrepreneuriat",
+          "info": "Construire et développer des projets comme Remonode, transformer des idées en produits impactants."
+        },
+        "ko": {
+          "title": "기업가정신",
+          "info": "Remonode와 같은 프로젝트를 구축하고 확장하여 아이디어를 영향력 있는 제품으로 전환."
+        }
+      }
+    },
+
+    {
+      "icon": {
+        "img": null,
+        "fa": "fa-solid fa-book-open",
+        "faColors": null
+      },
+      "value": null,
+      "locales": {
+        "en": {
+          "title": "Continuous Learning",
+          "info": "Always exploring new frameworks, languages, and technologies to grow as a developer."
+        },
+        "es": {
+          "title": "Aprendizaje Continuo",
+          "info": "Siempre explorando nuevos frameworks, lenguajes y tecnologías para crecer como desarrollador."
+        },
+        "fr": {
+          "title": "Apprentissage Continu",
+          "info": "Toujours explorer de nouveaux frameworks, langages et technologies pour évoluer en tant que développeur."
+        },
+        "ko": {
+          "title": "지속적인 학습",
+          "info": "개발자로 성장하기 위해 새로운 프레임워크, 언어 및 기술을 지속적으로 탐구."
+        }
+      }
+    }
+  ]
+}
+    
+    ]
+}

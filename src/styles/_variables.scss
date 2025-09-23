@@ -1,0 +1,237 @@
+/** ----------- FONTS ------------ **/
+$font-family-base: 'Inter', 'Segoe UI', system-ui, sans-serif;
+$headings-font-family: 'JetBrains Mono', 'Fira Code', monospace;
+$custom-subheadings-font-family: 'Inter', sans-serif;
+
+/** --------- Z-INDEXES ---------- **/
+$z-index-section-inactive: 10;
+$z-index-section-active: 20;
+$z-index-sidebar: 100;
+$z-index-nav-tabs: 200;
+$z-index-modal: 9000;
+$z-index-notifications: 9500;
+$z-index-dialogs: 9800;
+$z-index-activity-spinner: 9990;
+$z-index-animated-cursor: 9995;
+$z-index-loader: 9999;
+
+/** ----------- LAYOUT ----------- **/
+$sidebar-width: 280px;
+$sidebar-shrink-width: 120px;
+$nav-tabs-height: 55px;
+$nav-tabs-chrome-offset: 20px;
+$standard-border-radius: 8px;
+$layout-blocks-spacing: 0.75rem;
+$sidebar-min-breakpoint: md;
+
+/** ----------- COLORS ----------- **/
+
+/** COLORS - overriding bootstrap colors **/
+$primary: #00d4ff;
+$secondary: #64748b;
+$dark: #0a0f1c;
+$light: #f8fafc;
+
+/** COLORS - static **/
+$loader-background-color: #0a0f1c;
+
+:root {
+    --mobile-layout-breakpoint: md;
+}
+
+/** COLORS - dark theme palette (Sci-Fi Blue) **/
+:root {
+    --theme-main: #0a0f1c;
+    --theme-main-2: #0f1629;
+    --theme-main-3: #141b36;
+    --theme-main-4: #1a2142;
+
+    --theme-secondary: #e2e8f0;
+    --theme-secondary-2: #cbd5e1;
+    --theme-secondary-3: #94a3b8;
+    --theme-secondary-4: #64748b;
+
+    --theme-soft: #1e293b;
+    --theme-soft-2: #334155;
+    --theme-soft-3: #475569;
+
+    --theme-highlight: #00d4ff;
+    --theme-highlight-2: #38bdf8;
+    --theme-highlight-3: #0ea5e9;
+
+    --theme-dark: #020617;
+    --theme-dark-opacity: rgba(2, 6, 23, 0.3);
+    --theme-muted: #64748b;
+    --theme-white: #f1f5f9;
+
+    --theme-bg: linear-gradient(135deg, #0a0f1c 0%, #1e293b 100%);
+    --theme-bg-color: #0a0f1c;
+    --theme-section-background: #0f1629;
+    --theme-section-background-opacity: rgba(15, 22, 41, 0.9);
+    --theme-tag-color: #1a2142;
+    --theme-box-shadow: 0 4px 24px rgba(0, 212, 255, 0.15);
+
+    --theme-nav-background: #0f1629;
+    --theme-nav-background-disabled: #0a0f1c;
+    --theme-nav-secondary: #e2e8f0;
+    --theme-nav-light: #1e293b;
+    --theme-nav-highlight: #00d4ff;
+    --theme-nav-selected: #1a2142;
+
+    --theme-scrollbar-track: #0a0f1c;
+    --theme-scrollbar-thumb: #334155;
+    --theme-chart-borders: rgba(0, 212, 255, 0.2);
+
+    --theme-danger: #ef4444;
+    --theme-success: #10b981;
+    --theme-warning: #f59e0b;
+    
+    /* Sci-Fi glow effects */
+    --theme-glow: 0 0 20px rgba(0, 212, 255, 0.3);
+    --theme-glow-strong: 0 0 30px rgba(0, 212, 255, 0.5);
+    --theme-border-glow: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+/** COLORS - light theme palette (Professional Gray/Black) **/
+[data-theme="light"] {
+    --theme-main: #ffffff;
+    --theme-main-2: #f8fafc;
+    --theme-main-3: #f1f5f9;
+    --theme-main-4: #e2e8f0;
+
+    --theme-secondary: #1e293b;
+    --theme-secondary-2: #334155;
+    --theme-secondary-3: #475569;
+    --theme-secondary-4: #64748b;
+
+    --theme-soft: #f8fafc;
+    --theme-soft-2: #f1f5f9;
+    --theme-soft-3: #e2e8f0;
+
+    --theme-dark: #0f172a;
+    --theme-dark-opacity: rgba(15, 23, 42, 0.1);
+    --theme-muted: #64748b;
+    --theme-white: #ffffff;
+
+    --theme-highlight: #1e293b;
+    --theme-highlight-2: #334155;
+    --theme-highlight-3: #475569;
+
+    --theme-bg: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    --theme-bg-color: #ffffff;
+    --theme-section-background: #ffffff;
+    --theme-section-background-opacity: rgba(255, 255, 255, 0.95);
+    --theme-tag-color: #f1f5f9;
+    --theme-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+
+    --theme-nav-background: #ffffff;
+    --theme-nav-background-disabled: #f8fafc;
+    --theme-nav-secondary: #1e293b;
+    --theme-nav-light: #f8fafc;
+    --theme-nav-highlight: #1e293b;
+    --theme-nav-selected: #e2e8f0;
+
+    --theme-scrollbar-track: #f1f5f9;
+    --theme-scrollbar-thumb: #cbd5e1;
+    --theme-chart-borders: #e2e8f0;
+
+    --theme-danger: #dc2626;
+    --theme-success: #059669;
+    --theme-warning: #d97706;
+    
+    /* Professional subtle effects */
+    --theme-glow: none;
+    --theme-glow-strong: none;
+    --theme-border-glow: 1px solid #e2e8f0;
+}
+
+/* Enhanced background classes */
+.bg-dark {
+    background: var(--theme-bg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background: var(--theme-bg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sci-fi glow effects for dark mode */
+:root .glow-element {
+    box-shadow: var(--theme-glow);
+    border: var(--theme-border-glow);
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+:root .glow-element:hover {
+    box-shadow: var(--theme-glow-strong);
+}
+
+/* Professional focus states for light mode */
+[data-theme="light"] .focus-element {
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+[data-theme="light"] .focus-element:focus,
+[data-theme="light"] .focus-element:hover {
+    box-shadow: var(--theme-box-shadow);
+    border-color: var(--theme-highlight);
+}
+
+/* Utility classes for theme-aware styling */
+.theme-border {
+    border: var(--theme-border-glow);
+}
+
+.theme-shadow {
+    box-shadow: var(--theme-box-shadow);
+}
+
+.theme-bg-primary {
+    background-color: var(--theme-main);
+}
+
+.theme-bg-secondary {
+    background-color: var(--theme-main-2);
+}
+
+.theme-text-primary {
+    color: var(--theme-secondary);
+}
+
+.theme-text-muted {
+    color: var(--theme-muted);
+}
+
+.theme-accent {
+    color: var(--theme-highlight);
+}
+
+/* Smooth transitions for theme switching */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--theme-scrollbar-track);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--theme-scrollbar-thumb);
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-highlight);
+}
