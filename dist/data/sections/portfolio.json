@@ -1,0 +1,429 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"},
+                        "ko": {"singular": "앱", "plural": "앱들"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "ko": {"singular": "웹사이트", "plural": "웹"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                    }
+                }
+            ],
+
+            "items": [
+                
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/docshare.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa fa-globe", "href": "https://documenter.getpostman.com/view/16996780/2sB2ixka3J"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "DocShare API",
+                            "text": "A <b>RESTful API</b> backend built with <b>PHP & Laravel</b>, designed for high-performance Document Upload, Protection and Sharing.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "es": {
+                            "title": "BrainPulse",
+                            "text": "Una <b>API RESTful</b> construida con <b>PHP & Laravel</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "fr": {
+                            "title": "BrainPulse",
+                            "text": "Un backend <b>API RESTful</b> construit avec <b>PHP & Laravel</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "ko": {
+                            "title": "BrainPulse",
+                            "text": "<b>PHP & Laravel</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
+                            "tags": ["API", "REST", "Backend"]
+                        }
+                    }
+                },
+                 {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/coursepro.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa fa-globe", "href": "https://documenter.getpostman.com/view/16996780/2sB34kDyQt"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/pictures/course1.png",
+                                "images/pictures/course2.png",
+                                "images/pictures/course3.png",
+                                "images/pictures/course4.png",
+                                "images/pictures/course5.png",
+                                "images/pictures/course6.png",
+                                "images/pictures/course7.png",
+                                "images/pictures/course8.png",
+                                "images/pictures/course9.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "CourseProMax",
+                            "text": "An <b>AI-Powered Course Recommendation Engine for Personalized Learning</b> with adaptive learning pathways, skill-gap analysis, and trending course insights to keep users engaged and motivated.",
+                            "tags": ["Edu-Tech", "AI Powered", "Engaging", "Courses"]
+                        },
+                        "es": {
+                            "title": "CourseProMax",
+                            "text": "Una <b>app fintech impulsada por IA</b> que permite <b>procesar pagos</b>, realizar <b>recargas virtuales</b> y gestionar transacciones financieras en múltiples plataformas. Diseñada con seguridad, velocidad y escalabilidad en mente.",
+                            "tags": ["Fintech", "Pagos", "Recargas", "IA"]
+                        },
+                        "fr": {
+                            "title": "CourseProMax",
+                            "text": "Une <b>application fintech alimentée par l’IA</b> qui permet un <b>traitement des paiements</b>, des <b>recharges virtuelles</b> et des transactions financières sur plusieurs plateformes. Conçue pour la sécurité, la rapidité et l’évolutivité.",
+                            "tags": ["Fintech", "Paiements", "Recharges", "IA"]
+                        },
+                        "ko": {
+                            "title": "CourseProMax",
+                            "text": "<b>AI 기반 핀테크 앱</b>으로, <b>결제 처리</b>, <b>가상 충전</b> 및 다양한 플랫폼 간 금융 거래를 원활하게 지원합니다. 보안, 속도 및 확장성을 고려하여 설계되었습니다.",
+                            "tags": ["핀테크", "결제", "충전", "AI"]
+                        }
+                    }
+                },
+                 {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/mento.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa fa-globe", "href": "https://documenter.getpostman.com/view/16996780/2sB34kCxta"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/pictures/mento1.png",
+                                "images/pictures/mento2.png",
+                                "images/pictures/mento3.png",
+                                "images/pictures/mento4.png",
+                                "images/pictures/mento5.png",
+                                "images/pictures/mento6.png",
+                                "images/pictures/mento7.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Mentonixia",
+                            "text": "An <b>Compassionate AI for Mental Wellness</b> the premier AI-powered mental health support platform designed for developers, healthcare providers, and wellness applications",
+                            "tags": ["Edu-Tech", "AI Powered", "Engaging", "Courses"]
+                        },
+                        "es": {
+                            "title": "CourseProMax",
+                            "text": "Una <b>app fintech impulsada por IA</b> que permite <b>procesar pagos</b>, realizar <b>recargas virtuales</b> y gestionar transacciones financieras en múltiples plataformas. Diseñada con seguridad, velocidad y escalabilidad en mente.",
+                            "tags": ["Fintech", "Pagos", "Recargas", "IA"]
+                        },
+                        "fr": {
+                            "title": "CourseProMax",
+                            "text": "Une <b>application fintech alimentée par l’IA</b> qui permet un <b>traitement des paiements</b>, des <b>recharges virtuelles</b> et des transactions financières sur plusieurs plateformes. Conçue pour la sécurité, la rapidité et l’évolutivité.",
+                            "tags": ["Fintech", "Paiements", "Recharges", "IA"]
+                        },
+                        "ko": {
+                            "title": "CourseProMax",
+                            "text": "<b>AI 기반 핀테크 앱</b>으로, <b>결제 처리</b>, <b>가상 충전</b> 및 다양한 플랫폼 간 금융 거래를 원활하게 지원합니다. 보안, 속도 및 확장성을 고려하여 설계되었습니다.",
+                            "tags": ["핀테크", "결제", "충전", "AI"]
+                        }
+                    }
+                },
+
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/afridata.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa fa-globe", "href": "https://documenter.getpostman.com/view/16996780/2sAYkHoduE"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/pictures/afri1.png ",
+                                "images/pictures/afri2.png ",
+                                "images/pictures/afri3.png ",
+                                "images/pictures/afri4.png ",
+                                "images/pictures/afri5.png ",
+                                "images/pictures/afri6.png "
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "AFRIDataNG",
+                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
+                            "tags": [ "Virtual Top Up", "Mobile Wallet"]
+                        },
+                        "es": {
+                            "title": "AFRIDataNG",
+                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
+                            "tags": ["Flutter", "Correo", "Comunicación"]
+                        },
+                        "fr": {
+                            "title": "AFRIDataNG",
+                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
+                            "tags": ["Flutter", "E-mail", "Communication"]
+                        },
+                        "ko": {
+                            "title": "AFRIDataNG",
+                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
+                            "tags": ["Flutter", "이메일", "소통"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/playremo.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa fa-globe", "href": "https://documenter.getpostman.com/view/16996780/2sB2x2LuUc"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/pictures/remopay1.png",
+                                "images/pictures/remopay2.png",
+                                "images/pictures/remopay3.png",
+                                "images/pictures/remopay4.png",
+                                "images/pictures/remopay5.png",
+                                "images/pictures/remopay6.png",
+                                "images/pictures/remopay7.png",
+                                "images/pictures/remopay8.png",
+                                "images/pictures/remopay9.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Remopay",
+                            "text": "An <b>AI-powered fintech app</b> that enables seamless <b>payment processing</b>, <b>virtual top-ups</b>, and financial transactions across multiple platforms. Designed with security, speed, and scalability in mind, it makes digital payments smarter and easier.",
+                            "tags": ["Fintech", "AI Powered", "Payments", "Top-up"]
+                        },
+                        "es": {
+                            "title": "Remopay",
+                            "text": "Una <b>app fintech impulsada por IA</b> que permite <b>procesar pagos</b>, realizar <b>recargas virtuales</b> y gestionar transacciones financieras en múltiples plataformas. Diseñada con seguridad, velocidad y escalabilidad en mente.",
+                            "tags": ["Fintech", "Pagos", "Recargas", "IA"]
+                        },
+                        "fr": {
+                            "title": "Remopay",
+                            "text": "Une <b>application fintech alimentée par l’IA</b> qui permet un <b>traitement des paiements</b>, des <b>recharges virtuelles</b> et des transactions financières sur plusieurs plateformes. Conçue pour la sécurité, la rapidité et l’évolutivité.",
+                            "tags": ["Fintech", "Paiements", "Recharges", "IA"]
+                        },
+                        "ko": {
+                            "title": "Remopay",
+                            "text": "<b>AI 기반 핀테크 앱</b>으로, <b>결제 처리</b>, <b>가상 충전</b> 및 다양한 플랫폼 간 금융 거래를 원활하게 지원합니다. 보안, 속도 및 확장성을 고려하여 설계되었습니다.",
+                            "tags": ["핀테크", "결제", "충전", "AI"]
+                        }
+                    }
+                },
+
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/science.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa fa-globe", "href": "https://crm.remonode.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                          "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/crm1.png",
+                                "images/pictures/crm2.png",
+                                "images/pictures/crm3.png",
+                                "images/pictures/crm4.png",
+                                "images/pictures/crm5.png",
+                                "images/pictures/crm6.png",
+                                "images/pictures/crm7.png",
+                                "images/pictures/crm8.png",
+                                "images/pictures/crm9.png",
+                                "images/pictures/crm10.png",
+                                "images/pictures/crm11.png",
+                                "images/pictures/crm12.png",
+                                "images/pictures/crm13.png",
+                                "images/pictures/crm14.png",
+                                "images/pictures/crm15.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Remonode CRM",
+                            "text": "An <b>AI-powered multimedia SaaS CRM</b> designed for businesses, offering <b>multi-tenancy</b>, smart automation, and a <b>credit-based payment model</b> to scale efficiently.",
+                            "tags": ["AI Powered", "Multimedia", "SaaS", "CRM", "Credit Based"]
+                        },
+                        "es": {
+                            "title": "Remonode CRM",
+                            "text": "Un <b>CRM SaaS multimedia impulsado por IA</b> para empresas, con <b>multitenencia</b>, automatización inteligente y un <b>modelo de pago basado en créditos</b> para escalar eficientemente.",
+                            "tags": ["IA", "Multimedia", "SaaS", "CRM", "Créditos"]
+                        },
+                        "fr": {
+                            "title": "Remonode CRM",
+                            "text": "Un <b>CRM SaaS multimédia alimenté par l’IA</b> pour les entreprises, offrant la <b>multilocativité</b>, l’automatisation intelligente et un <b>modèle de paiement basé sur les crédits</b> pour une croissance efficace.",
+                            "tags": ["IA", "Multimédia", "SaaS", "CRM", "Crédits"]
+                        },
+                        "ko": {
+                            "title": "Remonode CRM",
+                            "text": "<b>AI 기반 멀티미디어 SaaS CRM</b>으로, <b>멀티 테넌시</b>, 스마트 자동화 및 <b>크레딧 기반 결제 모델</b>을 통해 효율적으로 확장할 수 있습니다.",
+                            "tags": ["AI", "멀티미디어", "SaaS", "CRM", "크레딧"]
+                        }
+                    }
+
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/adora.png",
+                        "fa": "fa-solid fa-truck-fast",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
+                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Adora",
+                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
+                            "tags": ["Ecommerce", "Delivery", "Real-Time Tracking"]
+                        },
+                        "es": {
+                            "title": "Adora",
+                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
+                            "tags": ["Ecommerce", "Entrega", "Seguimiento"]
+                        },
+                        "fr": {
+                            "title": "Adora",
+                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
+                            "tags": ["Ecommerce", "Livraison", "Suivi"]
+                        },
+                        "ko": {
+                            "title": "Adora",
+                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
+                            "tags": ["Ecommerce", "배송", "실시간 추적"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
