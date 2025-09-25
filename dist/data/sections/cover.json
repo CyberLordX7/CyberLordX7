@@ -129,99 +129,95 @@
                 "ko": {"title": "**고객** 추천사"}
             },
 
-            "items": [
-                {
-                    "value": "ADESANMI Emmanuel Adebukola",
-                    "links": [
-                        {"href": "https://www.linkedin.com/in/aea-redgem"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/adesanmi.jpeg",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "CEO at <b>LuxuryX Technologies & TradeFi Ltd</b>",
-                            "text": "Working with Michael was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
-                        },
-                        "es": {
-                            "info": "CEO en <b>SalesForce</b>",
-                            "text": "Trabajar con Michel fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
-                        },
-                        "fr": {
-                            "info": "PDG de <b>SalesForce</b>",
-                            "text": "Travailler avec Michael a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
-                        },
-                        "ko": {
-                            "info": "세일즈포스  CEO",
-                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
-                        }
-                    }
-                },
-
-    
-                {
-                    "value": "Lekan Oladele",
-                    "links": [
-                        {"href": "https://www.linkedin.com/in/lekan-oladele-a32b555"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/lekan.jpeg",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "CEO at <b>Tripodbase Limited</b>",
-                            "text": "Working with Michel was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
-                        },
-                        "es": {
-                            "info": "CEO en <b>SalesForce</b>",
-                            "text": "Trabajar con Michael fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
-                        },
-                        "fr": {
-                            "info": "PDG de <b>SalesForce</b>",
-                            "text": "Travailler avec Michael a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
-                        },
-                        "ko": {
-                            "info": "세일즈포스  CEO",
-                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
-                        }
-                    }
-                },
-
-    
-                {
-                    "value": "Mahesh Kendre",
-                    "links": [
-                        {"href": "https://www.linkedin.com/in/mahesh-kendre-7b848016"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/mahesh.jpeg",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "CEO at <b>Transmog Technologies</b>",
-                            "text": "Working with Michel was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
-                        },
-                        "es": {
-                            "info": "CEO en <b>SalesForce</b>",
-                            "text": "Trabajar con Michael fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
-                        },
-                        "fr": {
-                            "info": "PDG de <b>SalesForce</b>",
-                            "text": "Travailler avec Michael a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
-                        },
-                        "ko": {
-                            "info": "세일즈포스  CEO",
-                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
-                        }
-                    }
-                }
-            ]
+           "items": [
+    {
+        "value": "ADESANMI Emmanuel Adebukola",
+        "links": [
+            {"href": "https://www.linkedin.com/in/aea-redgem"}
+        ],
+        "icon": {
+            "img": "images/pictures/adesanmi.jpeg",
+            "fa": "fa-solid fa-user",
+            "faColors": null
+        },
+        "locales": {
+            "en": {
+                "info": "CEO at <b>LuxuryX Technologies & TradeFi Ltd</b>",
+                "text": "Michael's technical expertise in blockchain and fintech development is exceptional. His ability to deliver scalable solutions under tight deadlines while maintaining code quality sets him apart from other developers I've worked with."
+            },
+            "es": {
+                "info": "CEO en <b>LuxuryX Technologies & TradeFi Ltd</b>",
+                "text": "La experiencia técnica de Michael en blockchain y desarrollo fintech es excepcional. Su capacidad para entregar soluciones escalables bajo plazos ajustados mientras mantiene la calidad del código lo distingue de otros desarrolladores."
+            },
+            "fr": {
+                "info": "PDG de <b>LuxuryX Technologies & TradeFi Ltd</b>",
+                "text": "L'expertise technique de Michael en blockchain et développement fintech est exceptionnelle. Sa capacité à livrer des solutions évolutives dans des délais serrés tout en maintenant la qualité du code le distingue des autres développeurs."
+            },
+            "ko": {
+                "info": "LuxuryX Technologies & TradeFi Ltd CEO",
+                "text": "Michael의 블록체인 및 핀테크 개발 기술적 전문성은 탁월합니다. 코드 품질을 유지하면서 빡빡한 마감일 내에 확장 가능한 솔루션을 제공하는 능력이 다른 개발자들과 차별화됩니다."
+            }
+        }
+    },
+    {
+        "value": "Lekan Oladele",
+        "links": [
+            {"href": "https://www.linkedin.com/in/lekan-oladele-a32b555"}
+        ],
+        "icon": {
+            "img": "images/pictures/lekan.jpeg",
+            "fa": "fa-solid fa-user",
+            "faColors": null
+        },
+        "locales": {
+            "en": {
+                "info": "CEO at <b>Tripodbase Limited</b>",
+                "text": "As a technology leader, Michael demonstrated remarkable problem-solving skills and innovative thinking. His Laravel expertise and API development capabilities significantly enhanced our platform's performance and user experience."
+            },
+            "es": {
+                "info": "CEO en <b>Tripodbase Limited</b>",
+                "text": "Como líder tecnológico, Michael demostró habilidades excepcionales de resolución de problemas y pensamiento innovador. Su experiencia en Laravel y capacidades de desarrollo de API mejoraron significativamente el rendimiento de nuestra plataforma."
+            },
+            "fr": {
+                "info": "PDG de <b>Tripodbase Limited</b>",
+                "text": "En tant que leader technologique, Michael a démontré des compétences remarquables en résolution de problèmes et une pensée innovante. Son expertise Laravel et ses capacités de développement d'API ont considérablement amélioré les performances de notre plateforme."
+            },
+            "ko": {
+                "info": "Tripodbase Limited CEO",
+                "text": "기술 리더로서 Michael은 뛰어난 문제 해결 능력과 혁신적 사고를 보여주었습니다. 그의 Laravel 전문성과 API 개발 역량이 우리 플랫폼의 성능과 사용자 경험을 크게 향상시켰습니다."
+            }
+        }
+    },
+    {
+        "value": "Mahesh Kendre",
+        "links": [
+            {"href": "https://www.linkedin.com/in/mahesh-kendre-7b848016"}
+        ],
+        "icon": {
+            "img": "images/pictures/mahesh.jpeg",
+            "fa": "fa-solid fa-user",
+            "faColors": null
+        },
+        "locales": {
+            "en": {
+                "info": "CEO at <b>Transmog Technologies</b>",
+                "text": "Michael's full-stack development skills and leadership qualities made him an invaluable team member. His deep understanding of both frontend and backend technologies, combined with excellent communication skills, drove our project success."
+            },
+            "es": {
+                "info": "CEO en <b>Transmog Technologies</b>",
+                "text": "Las habilidades de desarrollo full-stack de Michael y sus cualidades de liderazgo lo convirtieron en un miembro valioso del equipo. Su comprensión profunda de tecnologías frontend y backend, combinada con excelentes habilidades de comunicación, impulsó el éxito del proyecto."
+            },
+            "fr": {
+                "info": "PDG de <b>Transmog Technologies</b>",
+                "text": "Les compétences de développement full-stack de Michael et ses qualités de leadership en ont fait un membre d'équipe inestimable. Sa compréhension approfondie des technologies frontend et backend, combinée à d'excellentes compétences de communication, a favorisé le succès du projet."
+            },
+            "ko": {
+                "info": "Transmog Technologies CEO",
+                "text": "Michael의 풀스택 개발 기술과 리더십 자질은 그를 귀중한 팀원으로 만들었습니다. 프론트엔드와 백엔드 기술에 대한 깊은 이해와 뛰어난 커뮤니케이션 스킬이 결합되어 프로젝트 성공을 이끌었습니다."
+            }
+        }
+    }
+]
         },
 
         {
