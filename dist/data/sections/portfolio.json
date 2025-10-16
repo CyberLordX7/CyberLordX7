@@ -378,6 +378,87 @@
                     }
 
                 },
+                 {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/nyp-logo.jpg",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+
+                    "links": [
+                        {
+                        "faIcon": "fa fa-globe",
+                        "href": "https://nypipportal.luxuryxtech.org.ng"
+                        }
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                        "aspectRatio": "16:9",
+                        "images": [
+                            "images/pictures/nyp1.png",
+                            "images/pictures/nyp2.png",
+                            "images/pictures/nyp3.png",
+                            "images/pictures/nyp4.png",
+                            "images/pictures/nyp5.png",
+                            "images/pictures/nyp6.png",
+                            "images/pictures/nyp7.png",
+                            "images/pictures/nyp8.png",
+                            "images/pictures/nyp9.png",
+                            "images/pictures/nyp10.png"
+                        ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                        "title": "NYP-IP Portal",
+                        "text": "A comprehensive <b>digital ecosystem</b> that connects <b>Startups, SMEs, Investors, Funding Bodies, and Government Initiatives</b>. Designed to accelerate <b>industrial innovation</b>, drive <b>skills development</b>, and promote <b>financial inclusion</b> across Nigeria through technology-driven collaboration and data intelligence.",
+                        "tags": ["Innovation", "Startups", "SMEs", "Investment", "Government", "Digital Transformation"]
+                        },
+                        "es": {
+                        "title": "Impulsando el Futuro Industrial de Nigeria",
+                        "text": "Un <b>ecosistema digital integral</b> que conecta a <b>startups, pymes, inversores, organismos de financiación y programas gubernamentales</b>. Diseñado para acelerar la <b>innovación industrial</b>, fomentar el <b>desarrollo de habilidades</b> y promover la <b>inclusión financiera</b> en toda Nigeria.",
+                        "tags": ["Innovación", "Startups", "Pymes", "Inversión", "Gobierno", "Transformación Digital"]
+                        },
+                        "fr": {
+                        "title": "Autonomiser l’Avenir Industriel du Nigeria",
+                        "text": "Une <b>plateforme numérique complète</b> reliant les <b>startups, les PME, les investisseurs, les institutions de financement</b> et les <b>initiatives gouvernementales</b>. Conçue pour stimuler l’<b>innovation industrielle</b>, développer les compétences et renforcer l’<b>inclusion financière</b> au Nigeria.",
+                        "tags": ["Innovation", "Startups", "PME", "Investissement", "Gouvernement", "Transformation Numérique"]
+                        },
+                        "ko": {
+                        "title": "나이지리아 산업의 미래를 강화하다",
+                        "text": "이 <b>디지털 플랫폼</b>은 <b>스타트업, 중소기업, 투자자, 자금 기관, 정부 이니셔티브</b>를 연결하여 <b>산업 혁신</b>, <b>기술 개발</b>, 및 <b>금융 포용</b>을 촉진합니다.",
+                        "tags": ["혁신", "스타트업", "중소기업", "투자", "정부", "디지털 전환"]
+                        }
+                    },
+
+                    "transactions": [
+                        {
+                        "name": "Register Business",
+                        "description": "Entrepreneurs can create verified business profiles to access support programs, investors, and funding opportunities."
+                        },
+                        {
+                        "name": "Apply for Funding",
+                        "description": "Businesses can submit funding requests and connect with investors or government schemes for financial support."
+                        },
+                        {
+                        "name": "Partner with Government Initiatives",
+                        "description": "SMEs and startups can join state or federal innovation projects to scale their operations."
+                        },
+                        {
+                        "name": "Access Training & Skill Programs",
+                        "description": "Users can enroll in certified training modules aimed at improving industrial and digital skills."
+                        },
+                        {
+                        "name": "Investment Matching",
+                        "description": "Investors can explore verified projects, view performance analytics, and fund promising ventures."
+                        }
+                    ]
+                    },
+                
 
                 {
                     "categoryId": "apps",
