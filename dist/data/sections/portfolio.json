@@ -534,6 +534,88 @@
                         }
                     ]
                     },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/trivia.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+
+                    "links": [
+                        {
+                            "faIcon": "fa fa-globe",
+                            "href": "https://game.remonode.com"
+                        }
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/trivia1.PNG",
+                                "images/pictures/trivia2.PNG",
+                                "images/pictures/trivia3.PNG",
+                                "images/pictures/trivia4.PNG",
+                                "images/pictures/trivia5.PNG",
+                                "images/pictures/trivia6.PNG",
+                                "images/pictures/trivia7.PNG",
+                                "images/pictures/trivia8.PNG",
+                                "images/pictures/trivia9.PNG",
+                                "images/pictures/trivia10.PNG",
+                                "images/pictures/trivia11.PNG"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "A.I Powered Millionaire Trivia Game",
+                            "text": "An <b>AI-powered trivia experience</b> that challenges players with progressively harder questions — inspired by the classic <b>Who Wants to Be a Millionaire?</b>. The game blends <b>real-time intelligence</b>, <b>voice-driven interaction</b>, and <b>crypto rewards</b> to make learning, competition, and entertainment truly engaging. Players test their knowledge across categories like <b>science</b>, <b>history</b>, <b>technology</b>, and <b>general culture</b> while climbing the virtual millionaire ladder.",
+                            "tags": ["AI", "Trivia", "Game", "Crypto Rewards", "Quiz", "Knowledge", "Interactive"]
+                        },
+                        "es": {
+                            "title": "Juego de Trivia Millonario Impulsado por IA",
+                            "text": "Una <b>experiencia de trivia impulsada por inteligencia artificial</b> que desafía a los jugadores con preguntas cada vez más difíciles, inspirada en <b>¿Quién quiere ser millonario?</b>. Combina <b>interacción por voz</b>, <b>análisis en tiempo real</b> y <b>recompensas en criptomonedas</b> para crear una experiencia educativa y divertida.",
+                            "tags": ["IA", "Trivia", "Juego", "Cripto", "Conocimiento", "Interacción"]
+                        },
+                        "fr": {
+                            "title": "Jeu de Culture Générale Millionnaire Alimenté par l’IA",
+                            "text": "Un <b>jeu de trivia intelligent</b> inspiré de <b>Qui veut gagner des millions ?</b> où les joueurs affrontent des questions de plus en plus difficiles. Grâce à l’<b>IA</b>, à l’<b>interaction vocale</b> et aux <b>récompenses en cryptomonnaie</b>, chaque partie devient une aventure de savoir et de stratégie.",
+                            "tags": ["IA", "Trivia", "Jeu", "Crypto", "Connaissance", "Quiz", "Apprentissage"]
+                        },
+                        "ko": {
+                            "title": "AI 기반 백만장자 퀴즈 게임",
+                            "text": "<b>AI 기반 퀴즈 게임</b>으로, 점점 더 어려워지는 질문을 통해 지식을 테스트합니다. <b>실시간 AI 분석</b>과 <b>음성 상호작용</b>, 그리고 <b>암호화폐 보상</b>을 통해 학습과 재미를 동시에 제공합니다.",
+                            "tags": ["AI", "퀴즈", "게임", "암호화폐", "지식", "인터랙티브"]
+                        }
+                    },
+
+                    "transactions": [
+                        {
+                            "name": "Start a Trivia Game",
+                            "description": "Players can start a new game session and answer AI-generated trivia questions across multiple categories."
+                        },
+                        {
+                            "name": "Use Lifelines",
+                            "description": "Get assistance through AI-powered lifelines like 50:50, Ask the AI, or Crowd Wisdom."
+                        },
+                        {
+                            "name": "Earn Crypto Rewards",
+                            "description": "Win digital tokens or credits for every correct answer and milestone achieved."
+                        },
+                        {
+                            "name": "Compete on the Leaderboard",
+                            "description": "Track your performance and climb the global leaderboard to showcase your intelligence and strategy."
+                        },
+                        {
+                            "name": "Learn While You Play",
+                            "description": "Each question comes with detailed explanations powered by AI, helping players expand their knowledge base."
+                        }
+                    ]
+                },
+
 
 
                 {
