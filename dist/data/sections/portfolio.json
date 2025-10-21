@@ -615,7 +615,91 @@
                         }
                     ]
                 },
+              
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/adora.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
 
+                    "links": [
+                        {
+                            "faIcon": "fa fa-globe",
+                            "href": "https://adora-oo42cycd6-cyberlords-projects-f76b401f.vercel.app"
+                        }
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/adm1.PNG",
+                                "images/pictures/adm2.PNG",
+                                "images/pictures/adm3.PNG",
+                                "images/pictures/adm4.PNG",
+                                "images/pictures/adm5.PNG",
+                                "images/pictures/adm6.PNG",
+                                "images/pictures/adm7.PNG",
+                                "images/pictures/adm8.PNG",
+                                "images/pictures/adm9.PNG",
+                                "images/pictures/adm10.PNG"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Multivendor ECommerce Platform",
+                            "text": "A cutting-edge <b>AI-powered multivendor marketplace</b> that enables businesses and individuals to <b>create stores, list products, and sell online</b> with ease. Featuring <b>real-time analytics</b>, <b>automated product recommendations</b>, and <b>intelligent inventory management</b>, this platform empowers vendors to scale efficiently while giving customers a personalized shopping experience. From <b>digital products</b> to <b>physical goods</b>, every transaction is seamless, secure, and AI-optimized.",
+                            "tags": ["AI", "eCommerce", "Multivendor", "Marketplace", "Retail", "Automation", "Smart Commerce"]
+                        },
+                        "es": {
+                            "title": "Plataforma de Comercio Electrónico Multivendedor Impulsada por IA",
+                            "text": "Una <b>plataforma de comercio electrónico impulsada por IA</b> que permite a empresas y emprendedores <b>crear tiendas, gestionar productos y vender en línea</b>. Con <b>recomendaciones inteligentes</b>, <b>análisis en tiempo real</b> y <b>gestión automatizada de inventario</b>, esta solución transforma la forma en que los vendedores conectan con los compradores.",
+                            "tags": ["IA", "Comercio", "Multivendedor", "Mercado", "Automatización", "Retail Inteligente"]
+                        },
+                        "fr": {
+                            "title": "Plateforme eCommerce Multivendeur Alimentée par l’IA",
+                            "text": "Une <b>plateforme eCommerce intelligente</b> permettant aux vendeurs de <b>créer leurs boutiques, gérer les produits</b> et vendre en ligne grâce à la <b>puissance de l’intelligence artificielle</b>. L’IA optimise les ventes, les recommandations produits et la gestion du stock pour offrir une expérience d’achat moderne et personnalisée.",
+                            "tags": ["IA", "Commerce", "Multivendeur", "Marché", "Vente en ligne", "Automatisation"]
+                        },
+                        "ko": {
+                            "title": "AI 기반 멀티벤더 전자상거래 플랫폼",
+                            "text": "<b>AI 기반 멀티벤더 마켓플레이스</b>로, 판매자들이 손쉽게 <b>상점을 만들고 상품을 등록하여 판매</b>할 수 있습니다. <b>지능형 추천</b>, <b>실시간 분석</b>, <b>자동 재고 관리</b> 기능을 통해 판매 효율을 극대화하고 고객에게 개인화된 쇼핑 경험을 제공합니다.",
+                            "tags": ["AI", "전자상거래", "멀티벤더", "마켓플레이스", "스마트 커머스", "자동화"]
+                        }
+                    },
+
+                    "transactions": [
+                        {
+                            "name": "Create a Vendor Store",
+                            "description": "Vendors can register, create personalized storefronts, and start selling products or services."
+                        },
+                        {
+                            "name": "List and Manage Products",
+                            "description": "Add, update, and categorize products with AI-assisted descriptions and pricing optimization."
+                        },
+                        {
+                            "name": "Process Secure Transactions",
+                            "description": "Accept payments through multiple gateways with AI-based fraud detection and secure checkout."
+                        },
+                        {
+                            "name": "Track Orders and Inventory",
+                            "description": "Monitor real-time order status and inventory levels with intelligent restock alerts."
+                        },
+                        {
+                            "name": "AI-Driven Recommendations",
+                            "description": "Provide personalized product suggestions to increase conversions and enhance the buyer journey."
+                        },
+                        {
+                            "name": "Analyze Sales Performance",
+                            "description": "Use data-driven insights and AI analytics dashboards to measure store success and forecast demand."
+                        }
+                    ]
+                },
 
 
                 {
