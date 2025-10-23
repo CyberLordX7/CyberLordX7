@@ -40,33 +40,144 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "06/06/2021",
-                        "end":   "01/01/2022"
+                        "start": "07/01/2021",
+                        "end": "12/01/2021"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "ARCSSTEE-E",
-                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "tags": ["PHP", "MySQL", "Laravel", "Remote Sensing", "Satellite Communication", "GIS", "Spatial Datases", "Google Earth Engine"]
+                            "title": "**Software Development** and **GIS Specialist** Intern",
+                            "info": "ARCSSTE-E",
+                            "text": "<p>Worked as a Software Development and Geographic Information System Specialist Intern, contributing to innovative geospatial solutions:</p> <ul><li>Developed and maintained web applications for spatial data management</li><li>Implemented GIS features including map rendering and spatial analysis in web applications</li><li>Assisted in GIS analysis and data visualization for various research projects</li><li>Gained experience with open-source GIS software and libraries</li><li>Installation and troubleshooting of GMES VSAST Antenna for downloading and manipulating geospatial datasets</li></ul>",
+                            "tags": ["GIS", "Spatial Analysis", "Remote Sensing", "Geospatial Data", "Satellite Communication"]
                         },
                         "es": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "ARCSSTEE-E",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
+                            "title": "Pasante de **Desarrollo de Software** y **Especialista en SIG**",
+                            "info": "ARCSSTE-E",
+                            "text": "<p>Trabajé como pasante especialista en desarrollo de software y sistemas de información geográfica, contribuyendo a soluciones geoespaciales innovadoras:</p> <ul><li>Desarrollé y mantuve aplicaciones web para gestión de datos espaciales</li><li>Implementé funciones SIG incluyendo renderizado de mapas y análisis espacial</li><li>Asistí en análisis SIG y visualización de datos para varios proyectos de investigación</li><li>Adquirí experiencia con software y bibliotecas SIG de código abierto</li><li>Instalación y solución de problemas de antena GMES VSAST</li></ul>",
                             "tags": null
                         },
                         "fr": {
-                            "title": "Développeur **Backend**",
-                            "info": "ARCSSTEE-E",
-                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
+                            "title": "Stagiaire **Développement Logiciel** et **Spécialiste SIG**",
+                            "info": "ARCSSTE-E",
+                            "text": "<p>J'ai travaillé comme stagiaire spécialiste en développement logiciel et systèmes d'information géographique, contribuant à des solutions géospatiales innovantes:</p> <ul><li>Développé et maintenu des applications web pour la gestion de données spatiales</li><li>Implémenté des fonctionnalités SIG incluant le rendu cartographique et l'analyse spatiale</li><li>Assisté dans l'analyse SIG et la visualisation de données pour divers projets de recherche</li><li>Acquis de l'expérience avec des logiciels et bibliothèques SIG open source</li><li>Installation et dépannage d'antenne GMES VSAST</li></ul>",
                             "tags": null
                         },
                         "ko": {
-                            "title": "**백엔드** 개발자",
-                            "info": "사파이어 스튜디오",
-                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
+                            "title": "**소프트웨어 개발** 및 **GIS 전문가** 인턴",
+                            "info": "ARCSSTE-E",
+                            "text": "<p>소프트웨어 개발 및 지리 정보 시스템 전문가 인턴으로 근무하며 혁신적인 지리공간 솔루션에 기여했습니다:</p> <ul><li>공간 데이터 관리를 위한 웹 애플리케이션 개발 및 유지보수</li><li>지도 렌더링 및 공간 분석을 포함한 GIS 기능 구현</li><li>다양한 연구 프로젝트를 위한 GIS 분석 및 데이터 시각화 지원</li><li>오픈소스 GIS 소프트웨어 및 라이브러리 경험 습득</li><li>GMES VSAST 안테나 설치 및 문제 해결</li></ul>",
                             "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/btf.PNG",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2010",
+                        "end": "12/01/2011"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**PHP and Laravel** Developer Intern",
+                            "info": "Beautiful Together Foundation",
+                            "text": "<p>Served as a PHP and Laravel Developer Intern, contributing to web application development:</p> <ul><li>Developed and maintained web applications using modern frameworks</li><li>Assisted in the development of various web application features</li><li>Trained in the usage of latest development third-party modules</li><li>Worked with version control systems and development environments</li><li>Participated in code reviews and internal software development processes</li></ul>",
+                            "tags": ["Web Development", "Backend Development", "Version Control", "Code Review"]
+                        },
+                        "es": {
+                            "title": "Pasante de Desarrollador **PHP y Laravel**",
+                            "info": "Beautiful Together Foundation",
+                            "text": "<p>Serví como pasante de desarrollador PHP y Laravel, contribuyendo al desarrollo de aplicaciones web:</p> <ul><li>Desarrollé y mantuve aplicaciones web usando frameworks modernos</li><li>Asistí en el desarrollo de varias funcionalidades de aplicaciones web</li><li>Me capacité en el uso de módulos de terceros de última generación</li><li>Trabajé con sistemas de control de versiones y entornos de desarrollo</li><li>Participé en revisiones de código y procesos internos de desarrollo</li></ul>",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Stagiaire Développeur **PHP et Laravel**",
+                            "info": "Beautiful Together Foundation",
+                            "text": "<p>J'ai servi comme stagiaire développeur PHP et Laravel, contribuant au développement d'applications web:</p> <ul><li>Développé et maintenu des applications web utilisant des frameworks modernes</li><li>Assisté dans le développement de diverses fonctionnalités d'applications web</li><li>Formé à l'utilisation de modules tiers de dernière génération</li><li>Travaillé avec des systèmes de contrôle de version et des environnements de développement</li><li>Participé aux revues de code et aux processus de développement internes</li></ul>",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**PHP 및 Laravel** 개발자 인턴",
+                            "info": "Beautiful Together Foundation",
+                            "text": "<p>PHP 및 Laravel 개발자 인턴으로 근무하며 웹 애플리케이션 개발에 기여했습니다:</p> <ul><li>최신 프레임워크를 사용하여 웹 애플리케이션 개발 및 유지보수</li><li>다양한 웹 애플리케이션 기능 개발 지원</li><li>최신 개발 타사 모듈 사용 교육</li><li>버전 관리 시스템 및 개발 환경 작업</li><li>코드 리뷰 및 내부 소프트웨어 개발 프로세스 참여</li></ul>",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/remonode.png",
+                        "fa": "fa-brands fa-apple",
+                        "faColors": { "bg": "#111", "fill": "#EEE" }
+                    },
+                    "dates": {
+                        "start": "12/01/2022",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Project Manager** and **Full Stack Developer**",
+                            "info": "Remonode Technologies Ltd.",
+                            "text": "<p>Overseeing the planning and execution of innovative digital solutions while leading a multidisciplinary team focused on delivering seamless, high-performance products. Responsibilities include:</p> <ul><li>Coordinating project lifecycles from conception to deployment</li><li>Ensuring product reliability, scalability, and user satisfaction</li><li>Managing collaborations between design, development, and business units</li><li>Implementing quality assurance and performance optimization strategies</li><li>Driving innovation through research and modern solution architecture</li></ul> <p class='mt-3'>At Remonode, we are committed to transforming ideas into impactful digital experiences that empower businesses and users worldwide.</p>",
+                            "tags": ["Leadership", "Innovation", "Project Management", "Scalability", "Quality Assurance", "Team Collaboration", "System Architecture"]
+                        },
+                        "es": {
+                            "title": "**Gerente de Proyecto** y **Desarrollador Full Stack**",
+                            "info": "Remonode Technologies Ltd.",
+                            "text": "<p>Supervisando la planificación y ejecución de soluciones digitales innovadoras mientras lidera un equipo multidisciplinario enfocado en ofrecer productos de alto rendimiento. Las responsabilidades incluyen:</p> <ul><li>Coordinar el ciclo de vida de los proyectos desde la concepción hasta el lanzamiento</li><li>Asegurar la fiabilidad, escalabilidad y satisfacción del usuario</li><li>Gestionar la colaboración entre diseño, desarrollo y unidades de negocio</li><li>Implementar estrategias de control de calidad y optimización del rendimiento</li><li>Impulsar la innovación mediante investigación y arquitectura moderna de soluciones</li></ul> <p class='mt-3'>En Remonode, transformamos ideas en experiencias digitales impactantes que potencian a empresas y usuarios en todo el mundo.</p>",
+                            "tags": ["Liderazgo", "Innovación", "Gestión de Proyectos", "Escalabilidad", "Calidad", "Colaboración", "Arquitectura de Sistemas"]
+                        },
+                        "fr": {
+                            "title": "**Chef de projet** et **Développeur Full Stack**",
+                            "info": "Remonode Technologies Ltd.",
+                            "text": "<p>Supervise la planification et l’exécution de solutions numériques innovantes tout en dirigeant une équipe pluridisciplinaire dédiée à la création de produits performants et fluides. Les responsabilités incluent :</p> <ul><li>Coordonner le cycle de vie des projets de la conception au déploiement</li><li>Garantir la fiabilité, la scalabilité et la satisfaction des utilisateurs</li><li>Assurer la collaboration entre design, développement et stratégie</li><li>Mettre en œuvre des stratégies de qualité et d’optimisation des performances</li><li>Favoriser l’innovation par la recherche et l’architecture de solutions modernes</li></ul> <p class='mt-3'>Chez Remonode, nous transformons les idées en expériences numériques à fort impact pour les entreprises et leurs utilisateurs.</p>",
+                            "tags": ["Leadership", "Innovation", "Gestion de Projet", "Scalabilité", "Qualité", "Collaboration", "Architecture"]
+                        },
+                        "ko": {
+                            "title": "**프로젝트 매니저** 및 **풀스택 개발자**",
+                            "info": "Remonode Technologies Ltd.",
+                            "text": "<p>혁신적인 디지털 솔루션의 기획과 실행을 총괄하며, 고성능 제품을 제공하기 위해 다분야 팀을 이끌고 있습니다. 주요 업무는 다음과 같습니다:</p> <ul><li>프로젝트의 구상부터 배포까지 전 과정 관리</li><li>제품의 안정성, 확장성 및 사용자 만족 보장</li><li>디자인, 개발 및 비즈니스 부서 간 협업 조정</li><li>품질 보증 및 성능 최적화 전략 수립</li><li>연구와 현대적 설계를 통한 혁신 추진</li></ul> <p class='mt-3'>Remonode는 혁신적인 기술과 창의력을 통해 전 세계 비즈니스와 사용자를 위한 디지털 경험을 창조합니다.</p>",
+                            "tags": ["리더십", "혁신", "프로젝트 관리", "확장성", "품질 보증", "협업", "시스템 아키텍처"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/dahara.jpg",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "04/01/2023",
+                        "end": "11/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Software Developer**",
+                            "info": "Dahara Capital Nig Ltd.",
+                            "text": "<p>Worked as a Software Developer focused on creating engaging and high-performance digital gaming applications. Responsibilities included:</p> <ul><li>Developed interactive gaming applications with smooth and intuitive user experiences</li><li>Built robust APIs to manage player connections and in-game data</li><li>Implemented secure authentication and account management systems</li><li>Contributed to the design and development of blockchain-integrated gaming platforms</li><li>Collaborated with designers and other developers to enhance overall product quality</li><li>Performed testing, debugging, and performance optimization to ensure smooth gameplay</li></ul>",
+                            "tags": ["Gaming Development", "API Development", "Blockchain", "UI/UX", "Collaboration", "Optimization"]
+                        },
+                        "es": {
+                            "title": "**Desarrollador de Software**",
+                            "info": "Dahara Capital Nig Ltd.",
+                            "text": "<p>Trabajé como desarrollador de software enfocado en la creación de aplicaciones de juegos digitales atractivas y de alto rendimiento. Las responsabilidades incluyeron:</p> <ul><li>Desarrollo de aplicaciones de juegos interactivas con experiencias de usuario fluidas</li><li>Construcción de API sólidas para la gestión de jugadores y datos en el juego</li><li>Implementación de sistemas seguros de autenticación y gestión de cuentas</li><li>Contribución al diseño y desarrollo de plataformas de juegos integradas con blockchain</li><li>Colaboración con diseñadores y otros desarrolladores para mejorar la calidad del producto</li><li>Pruebas, depuración y optimización del rendimiento para garantizar un juego fluido</li></ul>",
+                            "tags": ["Desarrollo de Juegos", "API", "Blockchain", "UI/UX", "Colaboración", "Optimización"]
+                        },
+                        "fr": {
+                            "title": "**Développeur de Logiciels**",
+                            "info": "Dahara Capital Nig Ltd.",
+                            "text": "<p>Travaillé en tant que développeur de logiciels, axé sur la création d’applications de jeux numériques performantes et immersives. Les responsabilités comprenaient :</p> <ul><li>Développement d’applications de jeux interactives avec des expériences utilisateurs fluides</li><li>Conception d’API robustes pour la gestion des joueurs et des données en jeu</li><li>Mise en œuvre de systèmes d’authentification et de gestion de compte sécurisés</li><li>Participation à la conception et au développement de plateformes de jeux intégrées à la blockchain</li><li>Collaboration avec les concepteurs et développeurs pour améliorer la qualité du produit</li><li>Tests, débogage et optimisation des performances pour garantir une expérience de jeu fluide</li></ul>",
+                            "tags": ["Développement de Jeux", "API", "Blockchain", "UI/UX", "Collaboration", "Optimisation"]
+                        },
+                        "ko": {
+                            "title": "**소프트웨어 개발자**",
+                            "info": "Dahara Capital Nig Ltd.",
+                            "text": "<p>고성능 디지털 게임 애플리케이션 개발에 중점을 둔 소프트웨어 개발자로 근무했습니다. 주요 업무는 다음과 같습니다:</p> <ul><li>매력적이고 직관적인 사용자 경험을 제공하는 인터랙티브 게임 애플리케이션 개발</li><li>플레이어 연결 및 게임 데이터 관리를 위한 안정적인 API 구축</li><li>보안이 강화된 인증 및 계정 관리 시스템 구현</li><li>블록체인 통합 게임 플랫폼의 설계 및 개발에 기여</li><li>디자이너 및 다른 개발자들과 협력하여 제품 품질 향상</li><li>원활한 게임 플레이를 위한 테스트, 디버깅 및 성능 최적화 수행</li></ul>",
+                            "tags": ["게임 개발", "API", "블록체인", "UI/UX", "협업", "최적화"]
                         }
                     }
                 },
@@ -74,39 +185,229 @@
                     "icon": {
                         "img": "images/pictures/cloudware.jpg",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": { "bg": null, "fill": null }
                     },
                     "dates": {
-                        "start": "06/01/2018",
-                        "end": "12/01/2020"
+                        "start": "05/01/2025",
+                        "end": "08/30/2025"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
+                            "title": "**Full Stack Developer**",
+                            "info": "CloudWare Technologies",
+                            "text": "<p>Served as a Full Stack Developer on various internal and client-facing projects. Worked closely with the engineering and product teams to deliver quality software within defined timelines. Core responsibilities included:</p> <ul><li>Collaborated with frontend and backend teams to improve existing systems and enhance user experience</li><li>Implemented new features and maintained application functionality across multiple modules</li><li>Identified and resolved software issues to ensure reliability and performance</li><li>Contributed to planning sessions, code discussions, and team reviews</li><li>Supported day-to-day operations and participated in company-wide technical initiatives</li></ul> <p class='mt-3'>It was a hands-on 9–5 role focused on teamwork, problem-solving, and the steady delivery of practical, high-quality software solutions.</p>",
+                            "tags": ["Full Stack Development", "Problem Solving", "Collaboration", "Feature Implementation", "System Maintenance", "Software Reliability", "Teamwork"]
                         },
                         "es": {
-                            "title": "Ingeniero **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
+                            "title": "**Desarrollador Full Stack**",
+                            "info": "CloudWare Technologies",
+                            "text": "<p>Trabajé como desarrollador Full Stack en varios proyectos internos y de clientes. Colaboré estrechamente con los equipos de ingeniería y producto para ofrecer software de calidad dentro de los plazos establecidos. Las responsabilidades principales incluyeron:</p> <ul><li>Colaborar con los equipos de frontend y backend para mejorar sistemas existentes y la experiencia del usuario</li><li>Implementar nuevas funciones y mantener la funcionalidad de las aplicaciones</li><li>Identificar y resolver problemas de software para garantizar fiabilidad y rendimiento</li><li>Contribuir en sesiones de planificación, revisiones y discusiones técnicas</li><li>Apoyar las operaciones diarias y participar en iniciativas técnicas de la empresa</li></ul> <p class='mt-3'>Fue un rol práctico de 9 a 5 centrado en el trabajo en equipo, la resolución de problemas y la entrega constante de soluciones de software de calidad.</p>",
+                            "tags": ["Desarrollo Full Stack", "Resolución de Problemas", "Colaboración", "Implementación de Funciones", "Mantenimiento", "Fiabilidad", "Trabajo en Equipo"]
+                        },
+                        "fr": {
+                            "title": "**Développeur Full Stack**",
+                            "info": "CloudWare Technologies",
+                            "text": "<p>Occupé le poste de développeur Full Stack sur divers projets internes et externes. J’ai travaillé en étroite collaboration avec les équipes techniques et produits pour fournir des solutions logicielles fiables et performantes. Les principales responsabilités incluaient :</p> <ul><li>Collaborer avec les équipes frontend et backend pour améliorer les systèmes existants</li><li>Implémenter de nouvelles fonctionnalités et maintenir les performances des applications</li><li>Identifier et corriger les problèmes logiciels afin d’assurer la stabilité</li><li>Participer aux réunions de planification et aux revues d’équipe</li><li>Contribuer aux activités quotidiennes et initiatives techniques de l’entreprise</li></ul> <p class='mt-3'>Un rôle complet, de type 9h à 17h, axé sur la collaboration, la fiabilité et la livraison continue de solutions logicielles efficaces.</p>",
+                            "tags": ["Développement Full Stack", "Résolution de Problèmes", "Collaboration", "Implémentation", "Maintenance", "Fiabilité", "Travail d'Équipe"]
+                        },
+                        "ko": {
+                            "title": "**풀스택 개발자**",
+                            "info": "CloudWare Technologies",
+                            "text": "<p>내부 및 외부 프로젝트에서 풀스택 개발자로 근무하며 엔지니어링 및 제품 팀과 협력하여 고품질 소프트웨어를 제공했습니다. 주요 업무는 다음과 같습니다:</p> <ul><li>프론트엔드 및 백엔드 팀과 협력하여 기존 시스템 및 사용자 경험 개선</li><li>새로운 기능 구현 및 애플리케이션 유지보수 수행</li><li>소프트웨어 문제를 식별하고 해결하여 안정성과 성능 확보</li><li>프로젝트 계획, 코드 리뷰 및 팀 미팅에 참여</li><li>일상적인 운영을 지원하고 회사 기술 활동에 참여</li></ul> <p class='mt-3'>협업과 문제 해결, 그리고 지속적인 소프트웨어 품질 향상에 중점을 둔 9시부터 5시까지의 실무 중심 역할이었습니다.</p>",
+                            "tags": ["풀스택 개발", "문제 해결", "협업", "기능 구현", "유지보수", "신뢰성", "팀워크"]
+                        }
+                    }
+                },
+
+
+                {
+                    "icon": {
+                        "img": "images/pictures/tripodbase.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2023",
+                        "end": "06/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Software** Developer",
+                            "info": "Tripodbase Limited (Tasere Loan)",
+                            "text": "<p>Delivered high-impact integrations and automation solutions for a financial services platform:</p> <ul><li>Integrated payment processing features into the application</li><li>Integration of Core-Banking</li><li>Debugged and managed codebase for optimal performance</li><li>Authored critical API endpoints for core functionality</li><li>Converted bank statements with over 2000 records to CSV format</li><li>Developed automated cronjob system scanning 10,000+ user accounts</li><li>Integrated third-party APIs for salary history and loan history retrieval</li><li>Implemented automated disbursement directly from salary-linked accounts</li></ul>",
+                            "tags": ["FinTech", "API Integration", "Automation", "Payment Processing", "Database Management"]
+                        },
+                        "es": {
+                            "title": "Desarrollador de **Software**",
+                            "info": "Tasere Loan",
+                            "text": "<p>Entregué integraciones de alto impacto y soluciones de automatización para una plataforma de servicios financieros:</p> <ul><li>Integré funciones de procesamiento de pagos en la aplicación</li><li>Depuré y gestioné el código base para un rendimiento óptimo</li><li>Creé endpoints API críticos para funcionalidad principal</li><li>Convertí extractos bancarios con más de 2000 registros a formato CSV</li><li>Desarrollé sistema de cronjob automatizado que escanea más de 10,000 cuentas de usuario</li><li>Integré APIs de terceros para recuperación de historial salarial y de préstamos</li><li>Implementé desembolso automatizado directamente desde cuentas vinculadas a salarios</li></ul>",
                             "tags": null
                         },
                         "fr": {
-                            "title": "Ingénieur **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "J'ai contribué à l'amélioration du site Web de Coursera en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
+                            "title": "Développeur de **Logiciels**",
+                            "info": "Tasere Loan",
+                            "text": "<p>J'ai fourni des intégrations à fort impact et des solutions d'automatisation pour une plateforme de services financiers:</p> <ul><li>Intégré des fonctionnalités de traitement des paiements dans l'application</li><li>Débogué et géré le code base pour des performances optimales</li><li>Créé des endpoints API critiques pour les fonctionnalités principales</li><li>Converti des relevés bancaires avec plus de 2000 enregistrements au format CSV</li><li>Développé un système de cronjob automatisé scannant plus de 10 000 comptes utilisateurs</li><li>Intégré des APIs tierces pour la récupération de l'historique salarial et des prêts</li><li>Implémenté un décaissement automatisé directement depuis les comptes liés aux salaires</li></ul>",
                             "tags": null
                         },
                         "ko": {
-                            "title": "**풀스택** 엔지니어",
-                            "info": "코세라",
-                            "text": "Coursera 웹사이트를 개선하기 위해 새로운 기능을 추가하고 사용자 경험을 최적화했습니다. 원활한 기능을 보장하기 위해 프론트엔드와 백엔드 기술을 모두 활용했습니다.",
+                            "title": "**소프트웨어** 개발자",
+                            "info": "Tasere Loan",
+                            "text": "<p>금융 서비스 플랫폼을 위한 영향력 있는 통합 및 자동화 솔루션을 제공했습니다:</p> <ul><li>애플리케이션에 결제 처리 기능 통합</li><li>최적의 성능을 위해 코드베이스 디버깅 및 관리</li><li>핵심 기능을 위한 중요한 API 엔드포인트 작성</li><li>2000개 이상의 레코드가 있는 은행 명세서를 CSV 형식으로 변환</li><li>10,000개 이상의 사용자 계정을 스캔하는 자동화된 cronjob 시스템 개발</li><li>급여 내역 및 대출 내역 검색을 위한 타사 API 통합</li><li>급여 연결 계정에서 직접 자동 지급 구현</li></ul>",
                             "tags": null
                         }
                     }
                 },
+               
+                {
+                    "icon": {
+                        "img": "images/pictures/transmog.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2023",
+                        "end": "12/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full Stack** Developer",
+                            "info": "Transmog Technologies Private Limited",
+                            "text": "<p>Demonstrated comprehensive full-stack development expertise in building scalable applications:</p> <ul><li>Demonstrated proficiency in both front-end and back-end technologies</li><li>Developed and maintained server-side logic and databases for robust applications</li><li>Actively participated in agile development methodologies including sprint planning and retrospectives</li><li>Engaged in continuous learning to stay updated with latest technologies</li><li>Contributed to architectural decisions throughout the development lifecycle</li><li>Provided valuable insights for efficient and effective solutions</li><li>Ensured seamless user experiences through holistic approach to development</li></ul>",
+                            "tags": ["Full Stack Development", "Agile Methodologies", "Architecture", "Problem Solving", "Database Management"]
+                        },
+                        "es": {
+                            "title": "Desarrollador **Full Stack**",
+                            "info": "Transmog Technologies Private Limited",
+                            "text": "<p>Demostré experiencia integral en desarrollo full-stack construyendo aplicaciones escalables:</p> <ul><li>Demostré competencia en tecnologías front-end y back-end</li><li>Desarrollé y mantuve lógica del lado del servidor y bases de datos para aplicaciones robustas</li><li>Participé activamente en metodologías de desarrollo ágil</li><li>Me comprometí con el aprendizaje continuo para mantenerme actualizado con las últimas tecnologías</li><li>Contribuí a decisiones arquitectónicas durante todo el ciclo de desarrollo</li><li>Proporcioné información valiosa para soluciones eficientes y efectivas</li><li>Aseguré experiencias de usuario fluidas a través de un enfoque holístico</li></ul>",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Développeur **Full Stack**",
+                            "info": "Transmog Technologies Private Limited",
+                            "text": "<p>J'ai démontré une expertise complète en développement full-stack en construisant des applications évolutives:</p> <ul><li>Démontré la maîtrise des technologies front-end et back-end</li><li>Développé et maintenu la logique côté serveur et les bases de données pour des applications robustes</li><li>Participé activement aux méthodologies de développement agile</li><li>Engagé dans l'apprentissage continu pour rester à jour avec les dernières technologies</li><li>Contribué aux décisions architecturales tout au long du cycle de développement</li><li>Fourni des informations précieuses pour des solutions efficaces</li><li>Assuré des expériences utilisateur fluides grâce à une approche holistique</li></ul>",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**풀스택** 개발자",
+                            "info": "Transmog Technologies Private Limited",
+                            "text": "<p>확장 가능한 애플리케이션을 구축하면서 포괄적인 풀스택 개발 전문성을 입증했습니다:</p> <ul><li>프론트엔드 및 백엔드 기술 모두에 대한 숙련도 입증</li><li>강력한 애플리케이션을 위한 서버 측 로직 및 데이터베이스 개발 및 유지보수</li><li>스프린트 계획 및 회고를 포함한 애자일 개발 방법론에 적극 참여</li><li>최신 기술을 습득하기 위한 지속적인 학습 참여</li><li>개발 수명 주기 전반에 걸쳐 아키텍처 결정에 기여</li><li>효율적이고 효과적인 솔루션을 위한 귀중한 통찰력 제공</li><li>개발에 대한 전체적 접근 방식을 통해 원활한 사용자 경험 보장</li></ul>",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/jolawealth.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "07/01/2024",
+                        "end": "12/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Software** Developer",
+                            "info": "JOLAWEALTH Nig Limited",
+                            "text": "<p>Led end-to-end development of mobile, web, and API products with ownership and best practices:</p> <ul><li>Developed mobile, web, and API products from conception to deployment</li><li>Took full project ownership and responsibility for application development lifecycle</li><li>Implemented best practices in API design, development, and security</li><li>Applied mobile application development best practices with modern services</li><li>Configured CI/CD pipelines and codebase maintenance automation</li><li>Implemented project workflow automation for efficient delivery</li><li>Ensured code quality through automated testing and analysis</li></ul>",
+                            "tags": ["Mobile Development", "API Design", "CI/CD", "Security", "Project Ownership", "Automation"]
+                        },
+                        "es": {
+                            "title": "Desarrollador de **Software**",
+                            "info": "JOLAWEALTH Nig Limited",
+                            "text": "<p>Lideré el desarrollo end-to-end de productos móviles, web y API con propiedad y mejores prácticas:</p> <ul><li>Desarrollé productos móviles, web y API desde la concepción hasta el despliegue</li><li>Asumí la propiedad total del proyecto y la responsabilidad del ciclo de vida del desarrollo</li><li>Implementé mejores prácticas en diseño, desarrollo y seguridad de API</li><li>Apliqué mejores prácticas de desarrollo de aplicaciones móviles con servicios modernos</li><li>Configuré pipelines CI/CD y automatización de mantenimiento de código</li><li>Implementé automatización de flujo de trabajo del proyecto para entrega eficiente</li><li>Aseguré la calidad del código mediante pruebas y análisis automatizados</li></ul>",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Développeur de **Logiciels**",
+                            "info": "JOLAWEALTH Nig Limited",
+                            "text": "<p>J'ai dirigé le développement end-to-end de produits mobiles, web et API avec propriété et meilleures pratiques:</p> <ul><li>Développé des produits mobiles, web et API de la conception au déploiement</li><li>Pris la pleine propriété du projet et la responsabilité du cycle de vie du développement</li><li>Implémenté les meilleures pratiques en conception, développement et sécurité d'API</li><li>Appliqué les meilleures pratiques de développement d'applications mobiles avec des services modernes</li><li>Configuré des pipelines CI/CD et l'automatisation de la maintenance du code</li><li>Implémenté l'automatisation du flux de travail du projet pour une livraison efficace</li><li>Assuré la qualité du code par des tests et analyses automatisés</li></ul>",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**소프트웨어** 개발자",
+                            "info": "JOLAWEALTH Nig Limited",
+                            "text": "<p>소유권과 모범 사례를 통해 모바일, 웹 및 API 제품의 엔드투엔드 개발을 주도했습니다:</p> <ul><li>개념부터 배포까지 모바일, 웹 및 API 제품 개발</li><li>애플리케이션 개발 수명 주기에 대한 전체 프로젝트 소유권 및 책임 담당</li><li>API 설계, 개발 및 보안의 모범 사례 구현</li><li>최신 서비스를 사용한 모바일 애플리케이션 개발 모범 사례 적용</li><li>CI/CD 파이프라인 및 코드베이스 유지보수 자동화 구성</li><li>효율적인 제공을 위한 프로젝트 워크플로우 자동화 구현</li><li>자동화된 테스트 및 분석을 통해 코드 품질 보장</li></ul>",
+                            "tags": null
+                        }
+                    }
+                },
+                
+                {
+                    "icon": {
+                        "img": "images/pictures/luxury.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "12/01/2022",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Senior Backend Developer** and **Technical Lead**",
+                            "info": "LuxuryX Technologies Limited",
+                            "text": "<p>Leading backend development and technical strategy for institutional DeFi and tokenization platform:</p> <ul><li>Architecting and implementing scalable backend solutions for blockchain-based financial infrastructure</li><li>Leading development of institutional-grade payment rails and tokenization systems</li><li>Building secure APIs for cross-border payments, DeFi operations, and asset tokenization</li><li>Optimizing database performance to handle high-volume financial transactions</li><li>Implementing security best practices for financial data protection and compliance</li><li>Collaborating with cross-functional teams on technical architecture decisions</li><li>Mentoring development team on backend technologies and blockchain integration</li><li>Ensuring platform scalability to support institutional clients and global operations</li></ul>",
+                            "tags": ["Backend Development", "Blockchain", "FinTech", "DeFi", "API Architecture", "Security", "Leadership", "Tokenization"]
+                        },
+                        "es": {
+                            "title": "**Desarrollador Backend Senior** y **Líder Técnico**",
+                            "info": "LuxuryX Technologies Limited",
+                            "text": "<p>Liderando el desarrollo backend y la estrategia técnica para la plataforma institucional DeFi y tokenización:</p> <ul><li>Arquitecturando e implementando soluciones backend escalables para infraestructura financiera basada en blockchain</li><li>Liderando el desarrollo de rieles de pago de grado institucional y sistemas de tokenización</li><li>Construyendo APIs seguras para pagos transfronterizos, operaciones DeFi y tokenización de activos</li><li>Optimizando el rendimiento de la base de datos para manejar transacciones financieras de alto volumen</li><li>Implementando mejores prácticas de seguridad para protección de datos financieros y cumplimiento</li><li>Colaborando con equipos multifuncionales en decisiones de arquitectura técnica</li><li>Mentorizando al equipo de desarrollo en tecnologías backend e integración blockchain</li><li>Asegurando la escalabilidad de la plataforma para apoyar clientes institucionales y operaciones globales</li></ul>",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "**Développeur Backend Senior** et **Responsable Technique**",
+                            "info": "LuxuryX Technologies Limited",
+                            "text": "<p>Dirigeant le développement backend et la stratégie technique pour la plateforme institutionnelle DeFi et tokenisation:</p> <ul><li>Architecturant et implémentant des solutions backend évolutives pour l'infrastructure financière basée sur la blockchain</li><li>Dirigeant le développement de rails de paiement de niveau institutionnel et de systèmes de tokenisation</li><li>Construisant des APIs sécurisées pour les paiements transfrontaliers, les opérations DeFi et la tokenisation d'actifs</li><li>Optimisant les performances de la base de données pour gérer des transactions financières à haut volume</li><li>Implémentant les meilleures pratiques de sécurité pour la protection des données financières et la conformité</li><li>Collaborant avec des équipes interfonctionnelles sur les décisions d'architecture technique</li><li>Mentorant l'équipe de développement sur les technologies backend et l'intégration blockchain</li><li>Assurant l'évolutivité de la plateforme pour soutenir les clients institutionnels et les opérations mondiales</li></ul>",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**수석 백엔드 개발자** 및 **기술 리더**",
+                            "info": "LuxuryX Technologies Limited",
+                            "text": "<p>기관급 DeFi 및 토큰화 플랫폼의 백엔드 개발 및 기술 전략을 주도하고 있습니다:</p> <ul><li>블록체인 기반 금융 인프라를 위한 확장 가능한 백엔드 솔루션 설계 및 구현</li><li>기관급 결제 레일 및 토큰화 시스템 개발 주도</li><li>국경 간 결제, DeFi 운영 및 자산 토큰화를 위한 안전한 API 구축</li><li>대량 금융 거래를 처리하기 위한 데이터베이스 성능 최적화</li><li>금융 데이터 보호 및 규정 준수를 위한 보안 모범 사례 구현</li><li>기술 아키텍처 결정에 대해 다기능 팀과 협업</li><li>백엔드 기술 및 블록체인 통합에 대해 개발 팀 멘토링</li><li>기관 고객 및 글로벌 운영을 지원하기 위한 플랫폼 확장성 보장</li></ul>",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                "icon": {
+                    "img": "images/pictures/massaxis.jpg",
+                    "fa": "",
+                    "faColors": { "bg": null, "fill": null }
+                },
+                "dates": {
+                    "start": "10/20/2025",
+                    "end": "now"
+                },
+                "locales": {
+                    "en": {
+                    "title": "Frontend Developer",
+                    "info": "MassAxis",
+                    "text": "<p>Contributed to the development of <strong>Mass Axis CRM – The Ultimate Sales Growth Tool 🚀</strong>, an advanced sales and marketing automation platform designed to help businesses manage leads, campaigns, and communications seamlessly.</p> <ul><li>Implemented and optimized user-facing features for improved performance and scalability</li><li>Integrated frontend components with backend services to ensure smooth data flow</li><li>Worked closely with design and backend teams to deliver cohesive user experiences</li><li>Contributed to enhancing dashboard performance and real-time data synchronization</li><li>Participated in feature testing, issue resolution, and iterative UI improvements</li><li>Supported data migration and ensured zero data loss during large-scale transitions</li><li>Engaged in collaborative team activities, maintaining strong communication and project alignment</li></ul> <p>Mass Axis CRM enables users to manage contacts, pipelines, campaigns, and communication effortlessly—empowering businesses to scale faster with smarter automation.</p>",
+                    "tags": ["Frontend Development", "UI Engineering", "Feature Implementation", "Collaboration", "Data Integration", "CRM Development", "Automation Tools"]
+                    },
+                    "es": {
+                    "title": "Desarrollador Frontend",
+                    "info": "Cloudware Technologies",
+                    "text": "<p>Contribuí al desarrollo de <strong>Mass Axis CRM</strong>, una plataforma avanzada de automatización de ventas y marketing para gestionar leads, campañas y comunicaciones.</p> <ul><li>Implementación y optimización de características del lado del cliente</li><li>Integración de componentes frontend con servicios backend</li><li>Colaboración con equipos de diseño y desarrollo para una experiencia de usuario fluida</li><li>Participación en pruebas de características y resolución de incidencias</li><li>Apoyo en migraciones de datos con precisión y sin pérdida de información</li></ul> <p>Mass Axis CRM permite a las empresas gestionar contactos, campañas y comunicaciones de manera eficiente para lograr un crecimiento acelerado.</p>",
+                    "tags": null
+                    },
+                    "fr": {
+                    "title": "Développeur Frontend",
+                    "info": "Cloudware Technologies",
+                    "text": "<p>Participation au développement de <strong>Mass Axis CRM</strong>, une plateforme avancée d'automatisation des ventes et du marketing permettant aux entreprises de gérer leurs leads, campagnes et communications.</p> <ul><li>Implémentation et optimisation des fonctionnalités côté client</li><li>Intégration des composants frontend avec les services backend</li><li>Collaboration avec les équipes de design et backend pour des expériences utilisateur cohérentes</li><li>Amélioration des performances et synchronisation des données en temps réel</li><li>Contribution à la migration de données sans perte</li></ul> <p>Mass Axis CRM aide les entreprises à gérer leurs processus commerciaux de manière fluide et efficace.</p>",
+                    "tags": null
+                    },
+                    "ko": {
+                    "title": "프론트엔드 개발자",
+                    "info": "Cloudware Technologies",
+                    "text": "<p><strong>Mass Axis CRM</strong> 개발에 참여하여 비즈니스가 리드, 캠페인 및 커뮤니케이션을 효율적으로 관리할 수 있도록 지원하는 고급 영업 및 마케팅 자동화 플랫폼을 구축했습니다.</p> <ul><li>사용자 중심 기능 구현 및 성능 최적화</li><li>프론트엔드와 백엔드 간의 데이터 흐름 통합</li><li>디자인 및 개발 팀과 협업하여 일관된 사용자 경험 제공</li><li>대규모 데이터 마이그레이션 지원 및 무손실 전환 보장</li></ul> <p>Mass Axis CRM은 비즈니스 성장과 자동화를 촉진하는 통합 솔루션입니다.</p>",
+                    "tags": null
+                    }
+                }
+                },
+
                 {
                     "icon": {
                         "img": "images/pictures/coast.jpg",
@@ -114,218 +415,33 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "12/01/2020",
-                        "end": "11/01/2022"
+                        "start": "02/04/2025",
+                        "end": "05/04/2025"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Backend** Engineer",
-                            "info": "Adobe Inc.",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "tags": ["Java", "AWS", "REST", "Docker"]
+                            "title": "**Full Stack** Engineer",
+                            "info": "COAST Technologies Holdings Limited",
+                            "text": "<p>Delivering comprehensive full-stack solutions with focus on performance, quality, and collaboration:</p> <ul><li>Developing responsive, interactive, and visually appealing user interfaces using modern frontend technologies</li><li>Implementing UI/UX designs while ensuring cross-browser compatibility and accessibility standards</li><li>Optimizing frontend performance for faster load times and seamless user experience</li><li>Designing, developing, and maintaining server-side logic with multiple backend technologies</li><li>Building and managing APIs to facilitate communication between frontend and backend systems</li><li>Integrating frontend and backend systems to ensure smooth functionality and data flow</li><li>Implementing best practices for version control and CI/CD pipelines</li><li>Writing clean, maintainable, and well-documented code with comprehensive testing</li><li>Participating in agile events and contributing to iterative development</li><li>Collaborating with cross-functional teams including designers, product managers, and engineers</li></ul>",
+                            "tags": ["Full Stack Development", "Frontend", "Backend", "CI/CD", "Agile", "API Development", "UI/UX", "Team Collaboration"]
                         },
                         "es": {
-                            "title": "Ingeniero **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
+                            "title": "Ingeniero **Full Stack**",
+                            "info": "COAST Technologies Holdings Limited",
+                            "text": "<p>Entregando soluciones full-stack integrales con enfoque en rendimiento, calidad y colaboración:</p> <ul><li>Desarrollando interfaces de usuario responsive, interactivas y visualmente atractivas</li><li>Implementando diseños UI/UX asegurando compatibilidad cross-browser y estándares de accesibilidad</li><li>Optimizando el rendimiento frontend para tiempos de carga más rápidos</li><li>Diseñando, desarrollando y manteniendo lógica del lado del servidor</li><li>Construyendo y gestionando APIs para facilitar la comunicación entre sistemas</li><li>Integrando sistemas frontend y backend para asegurar funcionalidad fluida</li><li>Implementando mejores prácticas para control de versiones y pipelines CI/CD</li><li>Escribiendo código limpio, mantenible y bien documentado</li><li>Participando en eventos ágiles y contribuyendo al desarrollo iterativo</li><li>Colaborando con equipos multifuncionales</li></ul>",
                             "tags": null
                         },
                         "fr": {
-                            "title": "Ingénieur **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
+                            "title": "Ingénieur **Full Stack**",
+                            "info": "COAST Technologies Holdings Limited",
+                            "text": "<p>Fournissant des solutions full-stack complètes axées sur la performance, la qualité et la collaboration:</p> <ul><li>Développement d'interfaces utilisateur responsive, interactives et visuellement attrayantes</li><li>Implémentation de designs UI/UX assurant compatibilité cross-browser et normes d'accessibilité</li><li>Optimisation des performances frontend pour des temps de chargement plus rapides</li><li>Conception, développement et maintenance de logique côté serveur</li><li>Construction et gestion d'APIs pour faciliter la communication entre systèmes</li><li>Intégration des systèmes frontend et backend pour assurer une fonctionnalité fluide</li><li>Implémentation des meilleures pratiques pour le contrôle de version et les pipelines CI/CD</li><li>Écriture de code propre, maintenable et bien documenté</li><li>Participation aux événements agiles et contribution au développement itératif</li><li>Collaboration avec des équipes interfonctionnelles</li></ul>",
                             "tags": null
                         },
                         "ko": {
-                            "title": "**백엔드** 엔지니어",
-                            "info": "어도비 주식회사",
-                            "text": "Adobe Creative Cloud를 위한 강력한 백엔드 시스템 개발에 기여하였으며, 타사 서비스 통합과 클라우드 기능을 통해 데이터 처리 효율성을 향상시켰습니다.",
+                            "title": "**풀스택** 엔지니어",
+                            "info": "COAST Technologies Holdings Limited",
+                            "text": "<p>성능, 품질 및 협업에 중점을 둔 포괄적인 풀스택 솔루션 제공:</p> <ul><li>최신 프론트엔드 기술을 사용하여 반응형, 대화형 및 시각적으로 매력적인 사용자 인터페이스 개발</li><li>크로스 브라우저 호환성 및 접근성 표준을 보장하면서 UI/UX 디자인 구현</li><li>더 빠른 로드 시간과 원활한 사용자 경험을 위한 프론트엔드 성능 최적화</li><li>여러 백엔드 기술로 서버 측 로직 설계, 개발 및 유지보수</li><li>프론트엔드와 백엔드 시스템 간의 통신을 용이하게 하는 API 구축 및 관리</li><li>원활한 기능 및 데이터 흐름을 보장하기 위한 프론트엔드 및 백엔드 시스템 통합</li><li>버전 관리 및 CI/CD 파이프라인을 위한 모범 사례 구현</li><li>포괄적인 테스트를 통해 깨끗하고 유지 관리 가능하며 잘 문서화된 코드 작성</li><li>애자일 이벤트 참여 및 반복 개발에 기여</li><li>디자이너, 제품 관리자 및 엔지니어를 포함한 다기능 팀과 협업</li></ul>",
                             "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                         "img": "images/pictures/avatar.jpeg",
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Project Manager** and **Senior Backend** Developer",
-                            "info": "Remonode Technologies Ltd.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["SonarQube", "PostgreSQL", "Typescript", "RESTful APIs", "PHP", "React Native", "Expo", "Express"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                         "img": "images/pictures/redgem.jpg",
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                         "img": "images/pictures/transmog.jpg",
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                         "img": "images/pictures/jolawealth.jpg",
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                         "img": "images/pictures/dahara.jpg",
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
                         }
                     }
                 }

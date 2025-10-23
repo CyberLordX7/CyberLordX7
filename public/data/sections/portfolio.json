@@ -652,8 +652,8 @@
 
                     "locales": {
                         "en": {
-                            "title": "Multivendor ECommerce Platform",
-                            "text": "A cutting-edge <b>AI-powered multivendor marketplace</b> that enables businesses and individuals to <b>create stores, list products, and sell online</b> with ease. Featuring <b>real-time analytics</b>, <b>automated product recommendations</b>, and <b>intelligent inventory management</b>, this platform empowers vendors to scale efficiently while giving customers a personalized shopping experience. From <b>digital products</b> to <b>physical goods</b>, every transaction is seamless, secure, and AI-optimized.",
+                            "title": "Multivendor ECommerce",
+                            "text": "A cutting-edge <b>AI-powered multivendor marketplace</b> that enables businesses and individuals to <b>create stores, list products, and sell online</b> with ease. Featuring <b>real-time analytics</b>, <b>automated product recommendations</b>, and <b>intelligent inventory management</b>",
                             "tags": ["AI", "eCommerce", "Multivendor", "Marketplace", "Retail", "Automation", "Smart Commerce"]
                         },
                         "es": {
@@ -700,7 +700,74 @@
                         }
                     ]
                 },
+                {
+                "categoryId": "websites",
+                "icon": {
+                    "img": "images/pictures/luxury.png",
+                    "fa": "",
+                    "faColors": { "bg": null, "fill": null }
+                },
 
+                "links": [
+                    {
+                        "faIcon": "fa fa-globe",
+                        "href": "https://luxuryxtech.org.ng"
+                    }
+                ],
+
+                "media": {
+                    "youtubeVideo": null,
+                    "screenshots": {
+                        "aspectRatio": "16:9",
+                        "images": [
+                            "images/pictures/lux1.PNG",
+                            "images/pictures/lux2.PNG",
+                            "images/pictures/lux3.PNG",
+                            "images/pictures/lux4.PNG",
+                            "images/pictures/lux5.PNG",
+                            "images/pictures/lux6.PNG",
+                            "images/pictures/lux7.PNG",
+                            "images/pictures/lux8.PNG"
+                        ]
+                    }
+                },
+
+                "locales": {
+                    "en": {
+                        "title": "LuxuryX",
+                        "text": "An <b>institutional-grade blockchain infrastructure</b> providing <b>Global Payment Rails, Real World Asset (RWA) Tokenization, Trade Finance, and DeFi solutions</b> for businesses and governments.",
+                        "tags": ["DeFi", "Tokenization", "RWA", "Blockchain", "TradeFi", "Stablecoins", "Global Payments", "Trade Finance", "Institutional Finance", "Digital Assets"]
+                    }
+                },
+
+                "transactions": [
+                    {
+                        "name": "Real World Asset Tokenization",
+                        "description": "Tokenize diverse assets including company equity, real estate, commodities, invoices, receivables, intellectual property, and agricultural produce with 5% platform fee."
+                    },
+                    {
+                        "name": "Global Payment Settlement",
+                        "description": "Process instant B2B cross-border payments using USDI, NGNI, $IND, USD, and EUR with competitive fees (0.4% - 1%) through secure Web3 wallets."
+                    },
+                    {
+                        "name": "DeFi Staking & Yield Generation",
+                        "description": "Stake USDI, NGNI, and $IND to earn up to 20% APY while supporting real-economy projects through secure staking protocols."
+                    },
+                    {
+                        "name": "Trade Finance & Working Capital",
+                        "description": "Access collateral-light trade financing and working capital for importers, exporters, and businesses with fees ranging from 1% - 5%."
+                    },
+                    {
+                        "name": "Institutional Programs Enrollment",
+                        "description": "Participate in exclusive programs like NYP-IP (Nigeria Youth Parliament Industrialization), ASC-P (Academia SmartID Card), and O-IP (Osun Industrialization Program)."
+                    },
+                    {
+                        "name": "Digital Asset Management",
+                        "description": "Manage and trade institutional-grade digital assets including $LIDLF (Industrialization Fund), USDI (stablecoin), NGNI (Naira stablecoin), and $IND (utility token) on a secure, compliant platform."
+                    }
+                ]
+            },
+                
 
                 {
                     "categoryId": "apps",
